@@ -1,0 +1,26 @@
+{
+    "apple": {
+        "iPhone 11": [
+            {
+                "id": "iPhone11-Pro",
+                "name": "iPhone 11 Pro",
+                "date": "2019. 09",
+                "display": {
+                    "size": "5.8",
+                    "resolution": "2436 x 1125",
+                    "type": "Super Retina XDR 디스플레이",
+                    "ppi": "458"
+                },
+                "cpu": "Apple A13 Bionic APL1W85 SoC",
+                "ram": "4 GB LPDDR4X SDRAM",
+                "size": "71.4 x 144 x 8.1",
+                "weight": "188",
+                "battery": "3046",
+                "charge": "유선, 무선(고속, 일반)",
+                "os": "iOS 13.0",
+                "color": ["spacegray", "apple silver", "apple gold", "midnightgreen"],
+                "memory": [64, 256, 512]
+            }
+        ]
+    }
+}
