@@ -146,6 +146,19 @@ export default {
   color: #f9f9f9 !important;
 }
 
+.oceanblue {
+  background-color: #183168 !important;
+  color: #f9f9f9 !important;
+}
+
+.lavenderpurple {
+  background: #C19EBE !important;
+  color: #000 !important;
+}
+
+.metalliccopper {
+  background-color: #D29880 !important;
+}
 .applepurple {
   background: #d1cdda !important;
 }

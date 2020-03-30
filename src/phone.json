@@ -411,10 +411,10 @@
       "charge": "유선, 무선(고속, 일반)",
       "os": "Android 8.1",
       "color": [
-        "midnight black",
-        "ocean blue",
-        "lavender purple",
-        "metallic copper"
+        "midnightblack",
+        "oceanblue",
+        "lavenderpurple",
+        "metalliccopper"
       ],
       "memory": [128, 512],
       "camera": {
