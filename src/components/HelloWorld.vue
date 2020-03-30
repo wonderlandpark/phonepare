@@ -23,7 +23,7 @@
             <Selection
               v-on:selected="second"
               v-on:company="fuckingsecond"
-              phone="iphone11pro"
+              phone="iphone11promax"
               company="apple"
             />
             <Phone :id="two" :company="twoc" />
@@ -224,7 +224,7 @@ export default {
   data() {
     return {
       one: "galaxys20ultra",
-      two: "iphone11pro",
+      two: "iphone11promax",
       three: "galaxys20plus",
       onec: "samsung",
       twoc: "apple",

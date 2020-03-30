@@ -10,7 +10,7 @@
       class="ui label"
       :class="color"
     >
-      {{ window.innerWidth >= 768 ? colors.names[color] : "" }}
+      {{ a >= 768 ? colors.names[color] : "" }}
     </a>
     <!-- <li v-for="item in phone.color">{{ item }}</li> -->
     <div class="ui divider" />
@@ -34,11 +34,15 @@ export default {
       this.$data.phone = getData(this.company, this.id);
     }
   },
+    created() {
+    window.addEventListener("resize", ()=>{ this.$data.a = window.innerWidth});
+    this.handleResize();
+  },
   data() {
     return {
       phone: getData(this.company, this.id),
       colors,
-      window
+      a: window.innerWidth
     };
   }
 };
@@ -142,6 +146,26 @@ export default {
   color: #f9f9f9 !important;
 }
 
+.applepurple {
+  background: #d1cdda !important;
+}
+
+.appleyellow{
+  background: #ffe681 !important;
+}
+
+.applegreen {
+  background: #aee1cd !important;
+}
+.productred {
+  background: #ba0c2e !important;
+  color: #f9f9f9 !important;
+}
+
+.applegray {
+  background: #262529 !important;
+  color: white !important
+}
 img {
   width: 350px;
   height: 444px;
@@ -149,8 +173,8 @@ img {
 
 @media all and (max-width: 768px) {
   img {
-    width: 140px;
-    height: 180px;
+    width: 290px;
+    height: 400px;
   }
 }
 </style>

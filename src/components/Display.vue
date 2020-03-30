@@ -1,7 +1,7 @@
 <template>
   <div class="ui center aligned container">
     <h3>디스플레이</h3>
-    <h1>{{ phone.display.size }}”</h1>
+    <h1 class="size">{{ phone.display.size }}"</h1>
     <p v-bind:style="{ 'margin-top': '-10px' }">{{ phone.display.type }}</p>
 
     <h3>해상도</h3>
@@ -35,3 +35,9 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.size {
+  font-size: 4em;
+}
+</style>

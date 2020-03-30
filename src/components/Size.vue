@@ -1,7 +1,7 @@
 <template>
   <div class="ui center aligned container">
-    <h3>크기 (W x H x D)</h3>
-    <p>{{ phone.size }}</p>
+    <h3>크기 (W×H×D)</h3>
+    <p>{{ phone.size }} mm</p>
 
     <h3>무게</h3>
     <p>{{ phone.weight }}g</p>
