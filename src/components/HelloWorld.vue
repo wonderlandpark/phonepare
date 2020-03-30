@@ -1,8 +1,7 @@
 <template>
   <div>
     <div class="ui center aligned container">
-      <h1 class="ui header">Phone Hub</h1>
-      <p>핸드폰끼리 비교해드립니다.</p>
+      <h1>핸드폰끼리 비교해드립니다.</h1>
       <div class="ui center aligned grid">
         <div
           :class="{

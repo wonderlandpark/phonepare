@@ -16,7 +16,7 @@
     "ceramicwhite": "세라믹 화이트",
     "ceramicblack": "세라믹 블랙",
     "flamingopink": "플라밍고 핑크",
-    "prisimgreen": "프리즘 그린",
+    "prismgreen": "프리즘 그린",
     "canariayellow": "카나리아 옐로우",
     "midnightblack": "미드나이트 블랙",
     "coralblue": "코랄 블루",
@@ -34,6 +34,14 @@
     "applegray": "그레이",
     "oceanblue": "오션 블루",
     "lavenderpurple": "라벤더 퍼플",
-    "metalliccopper": "메탈릭 코퍼"
+    "metalliccopper": "메탈릭 코퍼",
+    "auraglow": "아우라 글로우",
+    "aura white": "아우라 화이트",
+    "aurared": "아우라 레드",
+    "aurapink": "아우라 핑크",
+    "aura black": "아우라 블랙",
+    "aurablue": "아우라 블루",
+    "prismblue": "프리즘 블루",
+    "arcticsilver": "아크틱 실버"
   }
 }

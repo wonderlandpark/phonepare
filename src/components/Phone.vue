@@ -50,104 +50,104 @@ export default {
 
 <style scoped>
 .spacegray {
-  background-color: #535150 !important;
+  background: #535150 !important;
   color: #f9f9f9 !important;
 }
 .apple.silver {
-  background-color: #ebebe3 !important;
+  background: #ebebe3 !important;
 }
 .apple.gold {
-  background-color: #fad7bd !important;
+  background: #fad7bd !important;
 }
 .midnightgreen {
-  background-color: #4e5851 !important;
+  background: #4e5851 !important;
   color: #f9f9f9 !important;
 }
 .cosmicblack {
-  background-color: #2d2926 !important;
+  background: #2d2926 !important;
   color: #f9f9f9 !important;
 }
 .cosmicgray {
-  background-color: #5f6367 !important;
+  background: #5f6367 !important;
   color: #f9f9f9 !important;
 }
 .cloudblue {
-  background-color: #a4c8e1 !important;
+  background: #a4c8e1 !important;
   color: #f9f9f9 !important;
 }
 .cloudwhite {
-  background-color: #ece8e4 !important;
+  background: #ece8e4 !important;
 }
 .crownsilver {
-  background-color: #dbdbdb !important;
+  background: #dbdbdb !important;
 }
 .majesticblack {
-  background-color: #000000 !important;
+  background: #000000 !important;
   color: #f9f9f9 !important;
 }
 .royalgold {
-  background-color: #cab8a0 !important;
+  background: #cab8a0 !important;
   color: #f9f9f9 !important;
 }
 .prismblack {
-  background-color: #040301 !important;
+  background: #040301 !important;
   color: #f9f9f9 !important;
 }
 .prismwhite {
-  background-color: #d5eef1 !important;
+  background: #d5eef1 !important;
 }
 
 .ceramicwhite {
-  background-color: #f4f1ed !important;
+  background: #f4f1ed !important;
 }
 .ceramicblack {
-  background-color: #2a2620 !important;
+  background: #2a2620 !important;
   color: #f9f9f9 !important;
 }
 .flamingopink {
-  background-color: #f2756d !important;
+  background: #f2756d !important;
   color: #f9f9f9 !important;
 }
-.prisimgreen {
-  background-color: #1c6c78 !important;
+.prismgreen {
+  background: #1c6c78 !important;
   color: #f9f9f9 !important;
 }
 .canariayellow {
-  background-color: #d9de4c !important;
+  background: #d9de4c !important;
   color: #f9f9f9 !important;
 }
 .midnightblack {
-  background-color: #000000 !important;
+  background: #000000 !important;
   color: #f9f9f9 !important;
 }
 .coralblue {
-  background-color: #95b6e1 !important;
+  background: #95b6e1 !important;
   color: #f9f9f9 !important;
 }
 
 .titaniumgray {
-  background-color: #7c7b81 !important;
+  background: #7c7b81 !important;
   color: #f9f9f9 !important;
 }
 .lilacpurple {
-  background-color: #c19ebe !important;
+  background: #c19ebe !important;
   color: #f9f9f9 !important;
 }
 .deepseablue {
-  background-color: #8f8b9c !important;
+  background: #8f8b9c !important;
   color: #f9f9f9 !important;
 }
 .orchidgray {
-  background-color: #183168 !important;
+  background: #183168 !important;
   color: #f9f9f9 !important;
 }
 .maplegold {
-  background-color: #c4b69c !important;
+  background: #c4b69c !important;
   color: #f9f9f9 !important;
 }
 
 .oceanblue {
-  background-color: #183168 !important;
+  background: #183168 !important;
   color: #f9f9f9 !important;
 }
 
@@ -157,7 +157,7 @@ export default {
 }
 
 .metalliccopper {
-  background-color: #D29880 !important;
+  background: #D29880 !important;
 }
 .applepurple {
   background: #d1cdda !important;
@@ -178,6 +178,33 @@ export default {
 .applegray {
   background: #262529 !important;
   color: white !important
+}
+
+.aurared {
+  background: #FF4848 !important;
+  color: white !important;
+}
+
+.aurapink {
+  background: #FD846E !important;
+  color: white !important;
+}
+
+.auraglow {
+  background: linear-gradient(to right, #CDC0C9, #BE9EAF, #3F77BB, #00BBCD) !important;
+}
+
+.aurablue {
+  background: #072676 !important;
+  color: white !important;
+}
+
+.aura.white {
+  background: #f5f5f5 !important;
+}
+
+.prismblue {
+  background: #95B6E1;
 }
 img {
   width: 350px;

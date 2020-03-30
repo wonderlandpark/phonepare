@@ -197,7 +197,17 @@
       "os": "Android 10",
       "color": ["cosmicblack", "cosmicgray"],
       "memory": [128, 256, 512, "외장 슬롯 지원"],
-      "waterproof": "IP68"
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["40MP"],
+        "back": [
+          "기본: 108MP(OIS 지원)",
+          "망원: 48MP(OIS 지원)",
+          "광각: 12MP",
+          "광학 4배줌 지원(하드웨어 수치)",
+          "최대 10배 하이브리드 광학 줌 및 최대 100배 디지털 줌"
+        ]
+      }
     },
     {
       "id": "galaxys20plus",
@@ -218,7 +228,17 @@
       "os": "Android 10",
       "color": ["cosmicgray", "cloudblue", "cloudwhite"],
       "memory": [128, 256, 512, "외장 슬롯 지원"],
-      "waterproof": "IP68"
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["12MP"],
+        "back": [
+          "기본: 12MP(OIS 지원)",
+          "망원: 48MP(OIS 지원)",
+          "광각: 12MP",
+          "광학 1.08배줌 지원(하드웨어 수치)",
+          "최대 3배 하이브리드 광학 줌 및 최대 30배 디지털 줌"
+        ]
+      }
     },
     {
       "id": "galaxys20",
@@ -246,7 +266,7 @@
           "기본: 12MP(OIS 지원)",
           "망원: 64MP(OIS 지원)",
           "광각: 12MP",
-          "광학 1.08줌 지원(하드웨어 수치)",
+          "광학 1.08배줌 지원(하드웨어 수치)",
           "최대 3배 하이브리드 광학 줌 및 최대 30배 디지털 줌"
         ]
       }
@@ -268,7 +288,7 @@
       "battery": "4300",
       "charge": "유선, 무선(고속, 일반)",
       "os": "Android 9",
-      "color": ["aura glow", "aura white", "aura black"],
+      "color": ["auraglow", "aura white", "aura black", "aurablue"],
       "memory": [256, 512, "외장 슬롯 지원"],
       "waterproof": "IP68"
     },
@@ -289,7 +309,7 @@
       "battery": "3500",
       "charge": "유선, 무선(고속, 일반)",
       "os": "Android 9",
-      "color": ["auraglow", "aurawhite", "aurablack"],
+      "color": ["auraglow", "aura white", "aura black", "aurared", "aurapink"],
       "memory": [256],
       "waterproof": "IP68",
       "camera": {
@@ -322,7 +342,16 @@
       "os": "Android 9",
       "color": ["majesticblack", "royalgold", "crownsilver"],
       "memory": [256, 512, "외장 슬롯 지원"],
-      "waterproof": "IP68"
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["10MP"],
+        "back": [
+          "기본: 12MP(OIS 지원)",
+          "망원: 12MP(OIS 지원)",
+          "광각: 16MP",
+          "광학 0.5~2배줌 지원"
+        ]
+      }
     },
     {
       "id": "galaxys10plus",
@@ -349,7 +378,16 @@
         "flamingopink"
       ],
       "memory": [128, 512, 1024, "외장 슬롯 지원"],
-      "waterproof": "IP68"
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["기본: 10MP", "심도: 8MP"],
+        "back": [
+          "기본: 12MP(OIS 지원)",
+          "망원: 12MP(OIS 지원)",
+          "광각: 16MP",
+          "광학 0.5~2배줌 지원"
+        ]
+      }
     },
     {
       "id": "galaxys10",
@@ -370,7 +408,15 @@
       "os": "Android 9",
       "color": ["prismblack", "prismwhite", "prismgreen", "flamingopink"],
       "memory": [128, 512, "외장 슬롯 지원"],
-      "waterproof": "IP68"
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["32MP"],
+        "back": [
+          "기본: 48MP(OIS 지원)",
+          "망원: 12MP(OIS 지원)",
+          "광각: 5MP"        
+        ]
+      }
     },
     {
       "id": "galaxys10e",
@@ -389,9 +435,17 @@
       "battery": "3100",
       "charge": "유선, 무선(고속, 일반)",
       "os": "Android 9",
-      "color": ["prismblack", "prismwhite", "canariayellow"],
+      "color": ["prismblack", "prismwhite", "canariayellow", "prismgreen", "prismblue", "flamingopink"],
       "memory": [128, "외장 슬롯 지원"],
-      "waterproof": "IP68"
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["10MP"],
+        "back": [
+          "기본: 12MP(OIS 지원)",
+          "광각: 16MP",
+          "광학 0.5배줌 지원"
+        ]
+      }
     },
     {
       "id": "galaxynote9",
@@ -448,10 +502,17 @@
         "midnightblack",
         "coralblue",
         "lilacpurple",
-        "burgundyred",
-        "sunrisegold"
+        "titaniumgray"
       ],
       "memory": [64, 256, "외장 슬롯 지원"],
+      "camera": {
+        "front": ["8MP"],
+        "back": [
+          "기본: 12MP(OIS 지원)",
+          "망원: 12MP(OIS 지원)",
+          "광학 2배줌 지원"
+        ]
+      },
       "waterproof": "IP68"
     },
     {
@@ -473,6 +534,11 @@
       "os": "Android 8.0",
       "color": ["midnightblack", "coralblue", "lilacpurple", "titaniumgray"],
       "memory": [64, 128, 256, "외장 슬롯 지원"],
+      "camera": {
+        "front": ["8MP"],
+        "back": [
+          "12MP(OIS 지원)"]
+      },
       "waterproof": "IP68"
     },
     {
@@ -521,7 +587,7 @@
       "battery": "3500",
       "charge": "유선, 무선(고속, 일반)",
       "os": "Android 8.0",
-      "color": ["midnightblack", "coralblue", "lilacpurple", "titaniumgray"],
+      "color": ["midnightblack", "coralblue", "orchidgray", "maplegold","arcticsilver"],
       "memory": [64, 256, "외장 슬롯 지원"],
       "waterproof": "IP68",
       "camera": {
