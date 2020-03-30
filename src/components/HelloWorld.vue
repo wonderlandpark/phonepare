@@ -21,7 +21,8 @@
     </div>
   </div>
   {{ one }} {{ two }} {{ three }}
-  <a class="ui button">비교하기</a>
+  <br/>
+  <a class="ui yellow button" :class="{'disabled': !(one&&two||two&&three||one&&three) }">비교하기</a>
   </div>
 </template>
 
