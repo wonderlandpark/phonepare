@@ -8,7 +8,7 @@
       :options="options"
       v-model="current"
     />
-    제품: 
+    제품:
     <Dropdown
       :count="count"
       :company="current"
@@ -30,19 +30,18 @@ export default {
   watch: {
     current: function(event) {
       this.$data.current = event;
-      this.$emit("selected", null)
-
+      this.$emit("selected", null);
     }
   },
   methods: {
     onData: function(event) {
       this.$emit("selected", event);
-      this.$emit("company", this.current)
+      this.$emit("company", this.current);
     }
   },
   beforeMount() {
     this.$data.current = this.company;
-    this.$emit("company", this.current)
+    this.$emit("company", this.current);
   },
   data() {
     return {

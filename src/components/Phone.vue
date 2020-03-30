@@ -1,14 +1,20 @@
 <template>
-    <div class="ui center aligned container">
-        <br/>
-        <img :src="phone.img" >
-        <h1>{{phone.name}}</h1>
-        <div class="ui divider"/>
-    </div>
+  <div class="ui center aligned container">
+    <br />
+    <img :src="phone.img" />
+    <h1>{{ phone.name }}</h1>
+    <h3>색상</h3>
+    <a
+    v-for="color in phone.color"
+    :key="color" class="ui label" :class="color"> {{ window.innerWidth >=768 ? colors.names[color] : '' }} </a>
+      <!-- <li v-for="item in phone.color">{{ item }}</li> -->
+    <div class="ui divider" />
+  </div>
 </template>
 
 <script>
-import { getData } from '../getPhone' 
+import { getData } from "../getPhone";
+import colors from '../color'
 export default {
   name: "Phone",
   props: {
@@ -16,100 +22,118 @@ export default {
     id: String
   },
   watch: {
-    company: function(){
-      this.$data.phone = getData(this.company, this.id)
+    company: function() {
+      this.$data.phone = getData(this.company, this.id);
     },
-    id: function(){
-      this.$data.phone = getData(this.company, this.id)
+    id: function() {
+      this.$data.phone = getData(this.company, this.id);
     }
   },
-  data(){
-      return {
-          phone: getData(this.company, this.id)
-      }
+  data() {
+    return {
+      phone: getData(this.company, this.id),
+      colors,
+      window
+    };
   }
 };
 </script>
 
 <style scoped>
 .spacegray {
-  color: #535150;
+  background-color: #535150  !important;
+  color: #f9f9f9 !important;
 }
 .apple.silver {
-  color: #ebebe3;
+  background-color: #ebebe3  !important;
 }
 .apple.gold {
-  color: #fad7bd;
+  background-color: #fad7bd  !important;
 }
 .midnightgreen {
-  color: #4e5851;
+  background-color: #4e5851  !important;
+  color: #f9f9f9 !important;
 }
 .cosmicblack {
-  color: #2d2926;
+  background-color: #2d2926  !important;
+  color: #f9f9f9 !important;
 }
 .cosmicgray {
-  color: #5f6367;
+  background-color: #5f6367  !important;
+  color: #f9f9f9 !important;
 }
 .cloudblue {
-  color: #a4c8e1;
+  background-color: #a4c8e1  !important;
+  color: #f9f9f9 !important;
 }
 .cloudwhite {
-  color: #ece8e4;
+  background-color: #ece8e4  !important;
 }
 .crownsilver {
-  color: #dbdbdb;
+  background-color: #dbdbdb  !important;
 }
 .majesticblack {
-  color: #000000;
+  background-color: #000000  !important;
+  color: #f9f9f9 !important;
 }
 .royalgold {
-  color: #cab8a0;
+  background-color: #cab8a0  !important;
+  color: #f9f9f9 !important;
 }
-.prisimblack {
-  color: #040301;
+.prismblack{
+  background-color: #040301  !important;
+  color: #f9f9f9 !important;
 }
-.prisimwhite {
-  color: #d5eef1;
+.prismwhite {
+  background-color: #d5eef1  !important;
 }
 
 .ceramicwhite {
-  color: #f4f1ed;
+  background-color: #f4f1ed  !important;
 }
 .ceramicblack {
-  color: #2a2620;
+  background-color: #2a2620  !important;
+  color: #f9f9f9 !important;
 }
 .flamingopink {
-  color: #f2756d;
+  background-color: #f2756d  !important;
+  color: #f9f9f9 !important;
 }
 .prisimgreen {
-  color: #1c6c78;
+  background-color: #1c6c78  !important;
+  color: #f9f9f9 !important;
 }
 .canariayellow {
-  color: #d9de4c;
+  background-color: #d9de4c  !important;
+  color: #f9f9f9 !important;
 }
 .midnightblack {
-  color: #000000;
+  background-color: #000000  !important;
+  color: #f9f9f9 !important;
 }
 .coralblue {
-  color: #95b6e1;
+  background-color: #95b6e1  !important;
+  color: #f9f9f9 !important;
 }
 
 .titaniumgray {
-  color: #7c7b81;
+  background-color: #7c7b81  !important;
+  color: #f9f9f9 !important;
 }
 .lilacpurple {
-  color: #c19ebe;
+  background-color: #c19ebe  !important;
+  color: #f9f9f9 !important;
 }
 
 img {
-      width: 350px;
-      height: 444px;
-    }
-    
-@media all and (max-width: 768px){
+  width: 350px;
+  height: 444px;
+}
+
+@media all and (max-width: 768px) {
   img {
-      width: 140px;
-      height: 180px;
-    }
+    width: 140px;
+    height: 180px;
+  }
 }
 </style>

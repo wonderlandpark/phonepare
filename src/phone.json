@@ -7,7 +7,7 @@
       "display": {
         "size": "5.8",
         "resolution": "2436 x 1125",
-        "type": "Super Retina XDR 디스플레이",
+        "type": "Super Retina XDR",
         "ppi": "458"
       },
       "cpu": "Apple A13 Bionic APL1W85 SoC",
@@ -41,7 +41,7 @@
       "charge": "유선, 무선(고속, 일반)",
       "os": "Android 10",
       "color": ["cosmicblack", "cosmicgray"],
-      "memory": [128, 256, 512],
+      "memory": [128, 256, 512, "외장 슬롯 지원"],
       "waterproof": "IP68"
     },
     {
@@ -62,7 +62,7 @@
       "charge": "유선, 무선(고속, 일반)",
       "os": "Android 10",
       "color": ["cosmicgray", "cloudblue", "cloudwhite"],
-      "memory": [128, 256, 512],
+      "memory": [128, 256, 512, "외장 슬롯 지원"],
       "waterproof": "IP68"
     },
     {
@@ -83,30 +83,52 @@
       "charge": "유선, 무선(고속, 일반)",
       "os": "Android 10",
       "color": ["cosmicgray", "cloudblue", "cloudwhite"],
-      "memory": [128],
+      "memory": [128, "외장 슬롯 지원"],
       "waterproof": "IP68"
     },
     {
-        "id": "galaxynote105g",
-        "name": "Galaxy Note 10 5G",
+        "id": "galaxynote10plus5g",
+        "name": "Galaxy Note 10 Plus 5G",
         "date": "2019. 08",
         "display": {
-            "size": "6.3",
-            "resolution": "2280x1440",
-            "type": "infinity-O AMOLED",
-            "ppi": "401"
+            "size": "6.8",
+            "resolution": "3040 x 1440",
+            "type": "Dynamic AMOLED ",
+            "ppi": "494"
         },
-        "cpu": "삼성 엑시노스 9 Series (9820) SoC" ,
+        "cpu": "삼성 엑시노스 9 Series (9825) SoC",
         "ram": "12 GB LPDDR4X SDRAM",
-        "size": "151×71.8×7.9",
-        "weight": "170",
-        "battery": "3500",
+        "size": "77.2 x 162.3 x 7.9",
+        "weight": "196",
+        "battery": "4300",
         "charge": "유선, 무선(고속, 일반)",
-        "os": "android 10",
+        "os": "Android 9",
         "color": ["aura glow", "aura white", "aura black"],
-        "memory": [256],
+        "memory": [256, 512, "외장 슬롯 지원"],
         "waterproof": "IP68"
     },
+    {
+      "id": "galaxynote105g",
+      "name": "Galaxy Note 10 5G",
+      "date": "2019. 08",
+      "display": {
+        "size": "6.3",
+        "resolution": "2280x1440",
+        "type": "Dynamic AMOLED",
+        "ppi": "401"
+      },
+      "cpu": "삼성 엑시노스 9 Series (9820) SoC",
+      "ram": "12 GB LPDDR4X SDRAM",
+      "size": "151×71.8×7.9",
+      "weight": "170",
+      "battery": "3500",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 9",
+      "color": ["auraglow", "aurawhite", "aurablack"],
+      "memory": [256],
+      "waterproof": "IP68"
+    },
+    
     {
       "id": "galaxys105g",
       "name": "Galaxy S10 5G",
@@ -125,7 +147,7 @@
       "charge": "유선, 무선(고속, 일반)",
       "os": "Android 9",
       "color": ["majesticblack", "royalgold", "crownsilver"],
-      "memory": [256, 512],
+      "memory": [256, 512, "외장 슬롯 지원"],
       "waterproof": "IP68"
     },
     {
@@ -152,7 +174,7 @@
         "ceramicwhite",
         "flamingopink"
       ],
-      "memory": [128, 512, 1024],
+      "memory": [128, 512, 1024, "외장 슬롯 지원"],
       "waterproof": "IP68"
     },
     {
@@ -173,7 +195,7 @@
       "charge": "유선, 무선(고속, 일반)",
       "os": "Android 9",
       "color": ["prismblack", "prismwhite", "prismgreen", "flamingopink"],
-      "memory": [128, 512],
+      "memory": [128, 512, "외장 슬롯 지원"],
       "waterproof": "IP68"
     },
     {
@@ -194,7 +216,7 @@
       "charge": "유선, 무선(고속, 일반)",
       "os": "Android 9",
       "color": ["prismblack", "prismwhite", "canariayellow"],
-      "memory": [128],
+      "memory": [128, "외장 슬롯 지원"],
       "waterproof": "IP68"
     },
     {
@@ -221,7 +243,7 @@
         "burgundyred",
         "sunrisegold"
       ],
-      "memory": [64, 256],
+      "memory": [64, 256, "외장 슬롯 지원"],
       "waterproof": "IP68"
     },
     {
@@ -242,7 +264,7 @@
       "charge": "유선, 무선(고속, 일반)",
       "os": "Android 8.0",
       "color": ["midnightblack", "coralblue", "lilacpurple", "titaniumgray"],
-      "memory": [64, 128, 256],
+      "memory": [64, 128, 256, "외장 슬롯 지원"],
       "waterproof": "IP68"
     },
 
@@ -264,7 +286,7 @@
       "charge": "유선, 무선(고속, 일반)",
       "os": "Android 8.0",
       "color": ["midnightblack", "coralblue", "lilacpurple", "titaniumgray"],
-      "memory": [64, 256],
+      "memory": [64, 256, "외장 슬롯 지원"],
       "waterproof": "IP68"
     }
   ]

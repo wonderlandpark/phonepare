@@ -1,11 +1,17 @@
 <template>
-  <div class="ui center aligned container"></div>
+  <div class="ui center aligned container">
+    <h3>배터리용량</h3>
+    <p>{{ phone.battery }}mAh</p>
+
+    <h3>충전방식</h3>
+    <p>{{ phone.charge }}</p>
+  </div>
 </template>
 
 <script>
 import { getData } from "../getPhone";
 export default {
-  name: "Phone",
+  name: "Battery",
   props: {
     company: String,
     id: String
@@ -27,6 +33,10 @@ export default {
 </script>
 
 <style scoped>
+
+.fas.large {
+    font-size: 4em !important;
+}
 .spacegray {
   color: #535150;
 }

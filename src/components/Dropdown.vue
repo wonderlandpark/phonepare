@@ -19,7 +19,7 @@ export default {
     company: function() {
       this.$data.products = getDropdown(this.company);
       this.$data.company = this.company;
-      this.$data.current = null
+      this.$data.current = null;
     },
     current: function() {
       this.$emit("selected", this.current);

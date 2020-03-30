@@ -17,12 +17,12 @@ export function getDropdown(company) {
   }
 }
 
-export function getData(company, id){
-    console.log(company, id)
-    if(!phones[company]) return {}
-    if(!phones[company].find(r=> r.id === id)) return {}
-    console.log(phones)
-    const res = phones[company].find(r=> r.id === id)
-    res.img = `/phones/${res.id}.jpg`
-    return res
+export function getData(company, id) {
+  console.log(company, id);
+  if (!phones[company]) return {};
+  if (!phones[company].find(r => r.id === id)) return {};
+  console.log(phones);
+  const res = phones[company].find(r => r.id === id);
+  res.img = `/phones/${res.id}.jpg`;
+  return res;
 }
