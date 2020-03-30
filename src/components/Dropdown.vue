@@ -1,8 +1,8 @@
 <template lang="html">
   <sui-dropdown
     fluid
-    :options="countries"
-    placeholder="비교할 폰을 선택하세요"
+    :options="products"
+    placeholder="제품"
     search
     selection
     v-model="current"
@@ -10,19 +10,28 @@
 </template>
 
 <script>
+import { getDropdown } from '../getPhone'
+console.log(global)
 export default {
   name: 'Company',
+  props: {company: String, count: String||Number},
+  watch: {
+      company: function(){
+          this.$data.products = getDropdown(this.company)
+      },
+      current: function(){
+          console.log(this.current)
+          this.$emit('selected', this.current)
+      }
+      
+  },
   data() {
     return {
       current: null,
-      countries: [
-        { key: 'af', value: 'af', flag: 'af', text: 'Afghanistan' },
-        { key: 'ax', value: 'ax', flag: 'ax', text: 'Aland Islands' },
-        { key: 'al', value: 'al', flag: 'al', text: 'Albania' },
-        { key: 'dz', value: 'dz', flag: 'dz', text: 'Algeria' },
-        { key: 'as', value: 'as', flag: 'as', text: 'American Samoa' }
-      ],
+      companyName: this.company,
+      products: [],
     };
   },
 };
 </script>
+

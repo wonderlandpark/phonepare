@@ -6,8 +6,9 @@
     :options="options"
     v-model="current"
     
+    
   />
-  <Dropdown/>
+  <Dropdown :count="count" :company="current" v-on:selected="onData" />
   </div>
 </template>
 
@@ -20,13 +21,20 @@ export default {
   },
   watch: {
     current: function(event){
-      console.log(event)
-
+      this.$data.current = event
     }
   },
+  methods: {
+    onData: function(event){
+      console.log(event)
+      this.$emit('selected', event)
+    }
+  },
+  
   data() {
     return {
       current: null,
+      product: '',
       options: [
         {
           text: 'Apple',

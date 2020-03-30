@@ -1,8 +1,7 @@
 {
-    "apple": {
-        "iPhone 11": [
+    "apple": [
             {
-                "id": "iPhone11-Pro",
+                "id": "iphone11pro",
                 "name": "iPhone 11 Pro",
                 "date": "2019. 09",
                 "display": {
@@ -19,8 +18,8 @@
                 "charge": "유선, 무선(고속, 일반)",
                 "os": "iOS 13.0",
                 "color": ["spacegray", "apple silver", "apple gold", "midnightgreen"],
-                "memory": [64, 256, 512]
+                "memory": [64, 256, 512],
+                "waterproof": "IP68"
             }
         ]
-    }
 }
