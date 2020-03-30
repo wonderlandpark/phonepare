@@ -239,7 +239,17 @@
       "os": "Android 10",
       "color": ["cosmicgray", "cloudblue", "cloudwhite"],
       "memory": [128, "외장 슬롯 지원"],
-      "waterproof": "IP68"
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["12MP"],
+        "back": [
+          "기본: 12MP(OIS 지원)",
+          "망원: 64MP(OIS 지원)",
+          "광각: 12MP",
+          "광학 1.08줌 지원(하드웨어 수치)",
+          "최대 3배 하이브리드 광학 줌 및 최대 30배 디지털 줌"
+        ]
+      }
     },
     {
       "id": "galaxynote10plus5g",
@@ -281,7 +291,16 @@
       "os": "Android 9",
       "color": ["auraglow", "aurawhite", "aurablack"],
       "memory": [256],
-      "waterproof": "IP68"
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["10MP"],
+        "back": [
+          "기본: 12MP(OIS 지원)",
+          "망원: 12MP(OIS 지원)",
+          "광각: 16MP",
+          "광학 0.5~2배줌 지원"
+        ]
+      } 
     },
 
     {
@@ -390,7 +409,7 @@
       "weight": "201",
       "battery": "4000",
       "charge": "유선, 무선(고속, 일반)",
-      "os": "Android 8",
+      "os": "Android 8.1",
       "color": [
         "midnight black",
         "ocean blue",
@@ -398,6 +417,14 @@
         "metallic copper"
       ],
       "memory": [128, 512],
+      "camera": {
+        "front": ["12MP"],
+        "back": [
+          "기본: 8MP(OIS 지원)",
+          "망원: 12MP(OIS 지원)",
+          "광학 2배줌 지원"
+        ]
+      },
       "waterproof": "IP68"
     },
     {
@@ -464,10 +491,18 @@
       "weight": "195",
       "battery": "3300",
       "charge": "유선, 무선(고속, 일반)",
-      "os": "Android 7",
+      "os": "Android 7.1",
       "color": ["midnightblack", "deepseablue", "orchidgray", "maplegold"],
       "memory": [64, 256, "외장 슬롯 지원"],
-      "waterproof": "IP68"
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["8MP"],
+        "back": [
+          "기본: 12MP(OIS 지원)",
+          "망원: 12MP(OIS 지원)",
+          "광학 2배줌 지원"
+        ]
+      }
     },
     {
       "id": "galaxys8",
@@ -488,7 +523,13 @@
       "os": "Android 8.0",
       "color": ["midnightblack", "coralblue", "lilacpurple", "titaniumgray"],
       "memory": [64, 256, "외장 슬롯 지원"],
-      "waterproof": "IP68"
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["8MP"],
+        "back": [
+          "12MP(OIS 지원)"
+        ]
+      }
     }
   ]
 }
