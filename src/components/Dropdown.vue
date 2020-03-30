@@ -1,5 +1,6 @@
 <template lang="html">
   <sui-dropdown
+    class="large"
     fluid
     :options="products"
     placeholder="제품"
@@ -21,12 +22,10 @@ export default {
       this.$data.current = null
     },
     current: function() {
-      console.log(this.current);
       this.$emit("selected", this.current);
     }
   },
   beforeMount() {
-    console.log(this.phone);
     this.$data.products = getDropdown(this.company);
     this.$data.current = this.phone;
   },

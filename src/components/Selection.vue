@@ -31,15 +31,18 @@ export default {
     current: function(event) {
       this.$data.current = event;
       this.$emit("selected", null)
+
     }
   },
   methods: {
     onData: function(event) {
       this.$emit("selected", event);
+      this.$emit("company", this.current)
     }
   },
   beforeMount() {
     this.$data.current = this.company;
+    this.$emit("company", this.current)
   },
   data() {
     return {

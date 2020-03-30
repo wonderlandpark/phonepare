@@ -87,6 +87,27 @@
       "waterproof": "IP68"
     },
     {
+        "id": "galaxynote105g",
+        "name": "Galaxy Note 10 5G",
+        "date": "2019. 08",
+        "display": {
+            "size": "6.3",
+            "resolution": "2280x1440",
+            "type": "infinity-O AMOLED",
+            "ppi": "401"
+        },
+        "cpu": "삼성 엑시노스 9 Series (9820) SoC" ,
+        "ram": "12 GB LPDDR4X SDRAM",
+        "size": "151×71.8×7.9",
+        "weight": "170",
+        "battery": "3500",
+        "charge": "유선, 무선(고속, 일반)",
+        "os": "android 10",
+        "color": ["aura glow", "aura white", "aura black"],
+        "memory": [256],
+        "waterproof": "IP68"
+    },
+    {
       "id": "galaxys105g",
       "name": "Galaxy S10 5G",
       "date": "2019.02",

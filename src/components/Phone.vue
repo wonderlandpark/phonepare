@@ -1,7 +1,9 @@
 <template>
     <div class="ui center aligned container">
-        <h3>프로세서</h3>
-        <p>{{ phone.cpu }}</p>
+        <br/>
+        <img :src="phone.img" >
+        <h1>{{phone.name}}</h1>
+        <div class="ui divider"/>
     </div>
 </template>
 
@@ -13,14 +15,14 @@ export default {
     company: String,
     id: String
   },
-    watch: {
-            company: function(){
+  watch: {
+    company: function(){
       this.$data.phone = getData(this.company, this.id)
     },
     id: function(){
       this.$data.phone = getData(this.company, this.id)
     }
-    },
+  },
   data(){
       return {
           phone: getData(this.company, this.id)
@@ -97,5 +99,17 @@ export default {
 }
 .lilacpurple {
   color: #c19ebe;
+}
+
+img {
+      width: 350px;
+      height: 444px;
+    }
+    
+@media all and (max-width: 768px){
+  img {
+      width: 140px;
+      height: 180px;
+    }
 }
 </style>
