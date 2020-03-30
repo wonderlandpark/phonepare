@@ -1,21 +1,14 @@
 <template>
   <div class="ui center aligned container">
-    <h3>디스플레이</h3>
-    <h1>{{ phone.display.size }}”</h1>
-    <p v-bind:style="{ 'margin-top': '-10px' }">{{ phone.display.type }}</p>
-
-    <h3>해상도</h3>
-    <p>{{ phone.display.resolution }}</p>
-
-    <h3>PPI</h3>
-    <p>{{ phone.display.ppi }}</p>
+    <h3>방수등급</h3>
+    <p>{{ phone.waterproof }}</p>
   </div>
 </template>
 
 <script>
 import { getData } from "../getPhone";
 export default {
-  name: "Display",
+  name: "Phone",
   props: {
     company: String,
     id: String

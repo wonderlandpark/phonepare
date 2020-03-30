@@ -1,6 +1,36 @@
 {
   "apple": [
     {
+      "id": "iphone11promax",
+      "name": "iPhone 11 Pro Max",
+      "date": "2019. 09",
+      "display": {
+        "size": "6.5",
+        "resolution": "2688 x 1242",
+        "type": "Super Retina XDR",
+        "ppi": "458"
+      },
+      "cpu": "Apple A13 Bionic APL1W85 SoC",
+      "ram": "4 GB LPDDR4X SDRAM",
+      "size": "77.8 x 158 x 8.1",
+      "weight": "226",
+      "battery": "3969",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "iOS 13.0",
+      "color": ["spacegray", "apple silver", "apple gold", "midnightgreen"],
+      "memory": [64, 256, 512],
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["12MP"],
+        "back": [
+          "기본: 12MP(OIS 지원)",
+          "망원: 12MP(OIS 지원)",
+          "광각: 12MP",
+          "광학 2배줌 지원"
+        ]
+      }
+    },
+    {
       "id": "iphone11pro",
       "name": "iPhone 11 Pro",
       "date": "2019. 09",
@@ -19,7 +49,16 @@
       "os": "iOS 13.0",
       "color": ["spacegray", "apple silver", "apple gold", "midnightgreen"],
       "memory": [64, 256, 512],
-      "waterproof": "IP68"
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["12MP"],
+        "back": [
+          "기본: 12MP(OIS 지원)",
+          "망원: 12MP(OIS 지원)",
+          "광각: 12MP",
+          "광학 2배줌 지원"
+        ]
+      }
     }
   ],
   "samsung": [
@@ -35,7 +74,7 @@
       },
       "cpu": "퀄컴 스냅드래곤 865 SM8250",
       "ram": "12 GB LPDDR5 SDRAM",
-      "size": "76 x 166.9 x 8.8 mm",
+      "size": "76 x 166.9 x 8.8",
       "weight": "186",
       "battery": "4500",
       "charge": "유선, 무선(고속, 일반)",
@@ -56,7 +95,7 @@
       },
       "cpu": "퀄컴 스냅드래곤 865 SM8250",
       "ram": "12 GB LPDDR5 SDRAM",
-      "size": "73.7 x 161.9 x 7.8 mm",
+      "size": "73.7 x 161.9 x 7.8",
       "weight": "186",
       "battery": "4500",
       "charge": "유선, 무선(고속, 일반)",
@@ -77,7 +116,7 @@
       },
       "cpu": "퀄컴 스냅드래곤 865 SM8250",
       "ram": "12 GB LPDDR5 SDRAM",
-      "size": "69.1 x 151.7 x 7.9 mm",
+      "size": "69.1 x 151.7 x 7.9",
       "weight": "163",
       "battery": "4000",
       "charge": "유선, 무선(고속, 일반)",
@@ -87,25 +126,25 @@
       "waterproof": "IP68"
     },
     {
-        "id": "galaxynote10plus5g",
-        "name": "Galaxy Note 10 Plus 5G",
-        "date": "2019. 08",
-        "display": {
-            "size": "6.8",
-            "resolution": "3040 x 1440",
-            "type": "Dynamic AMOLED ",
-            "ppi": "494"
-        },
-        "cpu": "삼성 엑시노스 9 Series (9825) SoC",
-        "ram": "12 GB LPDDR4X SDRAM",
-        "size": "77.2 x 162.3 x 7.9",
-        "weight": "196",
-        "battery": "4300",
-        "charge": "유선, 무선(고속, 일반)",
-        "os": "Android 9",
-        "color": ["aura glow", "aura white", "aura black"],
-        "memory": [256, 512, "외장 슬롯 지원"],
-        "waterproof": "IP68"
+      "id": "galaxynote10plus5g",
+      "name": "Galaxy Note 10+ 5G",
+      "date": "2019. 08",
+      "display": {
+        "size": "6.8",
+        "resolution": "3040 x 1440",
+        "type": "Dynamic AMOLED ",
+        "ppi": "494"
+      },
+      "cpu": "삼성 엑시노스 9 Series (9825) SoC",
+      "ram": "12 GB LPDDR4X SDRAM",
+      "size": "77.2 x 162.3 x 7.9",
+      "weight": "196",
+      "battery": "4300",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 9",
+      "color": ["aura glow", "aura white", "aura black"],
+      "memory": [256, 512, "외장 슬롯 지원"],
+      "waterproof": "IP68"
     },
     {
       "id": "galaxynote105g",
@@ -128,7 +167,7 @@
       "memory": [256],
       "waterproof": "IP68"
     },
-    
+
     {
       "id": "galaxys105g",
       "name": "Galaxy S10 5G",
@@ -141,7 +180,7 @@
       },
       "cpu": "삼성 엑시노스 9 Series (9820) SoC",
       "ram": "8 GB LPDDR4X SDRAM",
-      "size": "77.1 x 162.6 x 7.94 mm",
+      "size": "77.1 x 162.6 x 7.94",
       "weight": "198",
       "battery": "4500",
       "charge": "유선, 무선(고속, 일반)",
@@ -162,7 +201,7 @@
       },
       "cpu": "삼성 엑시노스 9 Series (9820) SoC",
       "ram": "8 GB LPDDR4X SDRAM",
-      "size": "74.1 x 157.6 x 7.8 mm",
+      "size": "74.1 x 157.6 x 7.8",
       "weight": "175",
       "battery": "4100",
       "charge": "유선, 무선(고속, 일반)",
@@ -189,7 +228,7 @@
       },
       "cpu": "삼성 엑시노스 9 Series (9820) SoC",
       "ram": "8 GB LPDDR4X SDRAM",
-      "size": "70.4 x 149.9 x 7.8 mm",
+      "size": "70.4 x 149.9 x 7.8",
       "weight": "157",
       "battery": "3400",
       "charge": "유선, 무선(고속, 일반)",
@@ -210,13 +249,39 @@
       },
       "cpu": "삼성 엑시노스 9 Series (9820) SoC",
       "ram": "6 GB LPDDR4X SDRAM",
-      "size": "69.9 x 142.2 x 7.9 mm",
+      "size": "69.9 x 142.2 x 7.9",
       "weight": "150",
       "battery": "3100",
       "charge": "유선, 무선(고속, 일반)",
       "os": "Android 9",
       "color": ["prismblack", "prismwhite", "canariayellow"],
       "memory": [128, "외장 슬롯 지원"],
+      "waterproof": "IP68"
+    },
+    {
+      "id": "galaxynote9",
+      "name": "Galaxy Note 9",
+      "date": "2018. 08",
+      "display": {
+        "size": "6.4",
+        "resolution": "2960 x 1440",
+        "type": "Super AMOLED",
+        "ppi": "516"
+      },
+      "cpu": "삼성 엑시노스 9 Series (9810) SoC",
+      "ram": "6 GB/8 GB LPDDR4X SDRAM",
+      "size": "76.4 x 161.9 x 8.8",
+      "weight": "201",
+      "battery": "4000",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 8",
+      "color": [
+        "midnight black",
+        "ocean blue",
+        "lavender purple",
+        "metallic copper"
+      ],
+      "memory": [128, 512],
       "waterproof": "IP68"
     },
     {
@@ -231,7 +296,7 @@
       },
       "cpu": "삼성 엑시노스 9 Series (9810) SoC.",
       "ram": "6 GB LPDDR4X SDRAM",
-      "size": "73.8 x 158.1 x 8.5 mm",
+      "size": "73.8 x 158.1 x 8.5",
       "weight": "189",
       "battery": "3500",
       "charge": "유선, 무선(고속, 일반)",
@@ -258,7 +323,7 @@
       },
       "cpu": "삼성 엑시노스 9 Series (9810) SoC.",
       "ram": "4 GB LPDDR4X SDRAM",
-      "size": "68.7 x 147.7 x 8.5 mm",
+      "size": "68.7 x 147.7 x 8.5",
       "weight": "163",
       "battery": "3000",
       "charge": "유선, 무선(고속, 일반)",
@@ -267,7 +332,27 @@
       "memory": [64, 128, 256, "외장 슬롯 지원"],
       "waterproof": "IP68"
     },
-
+    {
+      "id": "galaxynote8",
+      "name": "Galaxy Note 8",
+      "date": "2017. 08",
+      "display": {
+        "size": "6.3",
+        "resolution": "2960 x 1440",
+        "type": "Super AMOLED",
+        "ppi": "521"
+      },
+      "cpu": "삼성 엑시노스 9 Series (8895) SoC",
+      "ram": "6 GB LPDDR4X SDRAM",
+      "size": "74.8 x 162.5 x 8.6",
+      "weight": "195",
+      "battery": "3300",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 7",
+      "color": ["midnightblack", "deepseablue", "orchidgray", "maplegold"],
+      "memory": [64, 256, "외장 슬롯 지원"],
+      "waterproof": "IP68"
+    },
     {
       "id": "galaxys8",
       "name": "Galaxy S8",
@@ -280,7 +365,7 @@
       },
       "cpu": "삼성 엑시노스 9 Series (9810) SoC.",
       "ram": "6 GB LPDDR4X SDRAM",
-      "size": "73.8 x 158.1 x 8.5 mm",
+      "size": "73.8 x 158.1 x 8.5",
       "weight": "189",
       "battery": "3500",
       "charge": "유선, 무선(고속, 일반)",

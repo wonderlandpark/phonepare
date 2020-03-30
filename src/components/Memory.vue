@@ -1,6 +1,8 @@
 <template>
   <div class="ui center aligned container">
-    <div v-for="mem in phone.memory" :key="mem"> {{mem}}{{ isNaN(mem) ? '' : 'G'}} <br/></div>
+    <div v-for="mem in phone.memory" :key="mem">
+      {{ mem }}{{ isNaN(mem) ? "" : "G" }} <br />
+    </div>
   </div>
 </template>
 
@@ -27,4 +29,3 @@ export default {
   }
 };
 </script>
-
