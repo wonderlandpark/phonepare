@@ -78,7 +78,8 @@
             <Battery :id="three" :company="threec" />
           </div>
         </div>
-      </div>
+      </div>      
+
       <h2 class="ui left aligned header">디스플레이</h2>
       <div class="ui divider" />
       <div class="ui center aligned grid">
@@ -100,6 +101,26 @@
         </div>
       </div>
 
+  <h2 class="ui left aligned header">카메라</h2>
+      <div class="ui divider" />
+      <div class="ui center aligned grid">
+        <div
+          :class="{
+            'ui three column row': window.width > 1199,
+            'ui two column row': window.width <= 1199
+          }"
+        >
+          <div class="column">
+            <Camera :id="one" :company="onec" />
+          </div>
+          <div class="column">
+            <Camera :id="two" :company="twoc" />
+          </div>
+          <div class="column" v-if="window.width > 1199">
+            <Camera :id="three" :company="threec" />
+          </div>
+        </div>
+      </div>
       <h2 class="ui left aligned header">저장공간</h2>
       <div class="ui divider" />
       <div class="ui center aligned grid">
@@ -175,6 +196,7 @@ import Display from "./Display.vue";
 import Memory from "./Memory.vue";
 import Size from "./Size.vue";
 import Others from "./Others.vue";
+import Camera from "./Camera.vue";
 import Footer from "./Footer.vue";
 export default {
   name: "HelloWorld",
@@ -187,6 +209,7 @@ export default {
     Display,
     Memory,
     Size,
+    Camera,
     Others
   },
   methods: {
