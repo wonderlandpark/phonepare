@@ -1,216 +1,250 @@
 {
-    "apple": [
-            {
-                "id": "iphone11pro",
-                "name": "iPhone 11 Pro",
-                "date": "2019. 09",
-                "display": {
-                    "size": "5.8",
-                    "resolution": "2436 x 1125",
-                    "type": "Super Retina XDR 디스플레이",
-                    "ppi": "458"
-                },
-                "cpu": "Apple A13 Bionic APL1W85 SoC",
-                "ram": "4 GB LPDDR4X SDRAM",
-                "size": "71.4 x 144 x 8.1",
-                "weight": "188",
-                "battery": "3046",
-                "charge": "유선, 무선(고속, 일반)",
-                "os": "iOS 13.0",
-                "color": ["spacegray", "apple silver", "apple gold", "midnightgreen"],
-                "memory": [64, 256, 512],
-                "waterproof": "IP68"
-            }
-        ],
-        "samsung": [
-            {
-                "id": "Galaxy-S20-Ultra",
-                "name": "Galaxy S20 Ultra",
-                "date": "2020.02",
-                "display": {
-                    "size": "6.9",
-                    "resolution": "3200 x 1440",
-                    "type": "Infinity-O Display",
-                    "ppi": "511"
-                },
-                "cpu": "퀄컴 스냅드래곤 865 SM8250",
-                "ram": "12 GB LPDDR5 SDRAM",
-                "size": "76 x 166.9 x 8.8 mm",
-                "weight": "186",
-                "battery": "4500",
-                "charge": "유선, 무선(고속, 일반)",
-                "os": "Android 10",
-                "color": ["cosmic black", "cosmic gray"],
-                "memory": [128, 256, 512],
-                "waterproof": "IP68"
-            },
-            {
-                "id": "Galaxy-S20+",
-                "name": "Galaxy S20+",
-                "date": "2020.02",
-                "display": {
-                    "size": "6.7",
-                    "resolution": "3200 x 1440",
-                    "type": "Infinity-O Display",
-                    "ppi": "525"
-                },
-                "cpu": "퀄컴 스냅드래곤 865 SM8250",
-                "ram": "12 GB LPDDR5 SDRAM",
-                "size": "73.7 x 161.9 x 7.8 mm",
-                "weight": "186",
-                "battery": "4500",
-                "charge": "유선, 무선(고속, 일반)",
-                "os": "Android 10",
-                "color": ["cosmic gray", "cloud blue", "aura red", "cloud white", "aura blue"],
-                "memory": [128, 256, 512],
-                "waterproof": "IP68"
-            },
-            {
-                "id": "Galaxy-S20",
-                "name": "Galaxy S20",
-                "date": "2020.02",
-                "display": {
-                    "size": "6.2",
-                    "resolution": "3200 x 1440",
-                    "type": "Infinity-O Display",
-                    "ppi": "563"
-                },
-                "cpu": "퀄컴 스냅드래곤 865 SM8250",
-                "ram": "12 GB LPDDR5 SDRAM",
-                "size": "69.1 x 151.7 x 7.9 mm",
-                "weight": "163",
-                "battery": "4000",
-                "charge": "유선, 무선(고속, 일반)",
-                "os": "Android 10",
-                "color": ["cosmic gray", "cloud blue", "cloud pink", "cloud white"],
-                "memory": [128],
-                "waterproof": "IP68"
-            },
-            {
-                "id": "Galaxy-S10+",
-                "name": "Galaxy S10+",
-                "date": "2019.02",
-                "display": {
-                    "size": "6.4",
-                    "resolution": "3040 x 1440",
-                    "type": "Infinity-O Display",
-                    "ppi": "522"
-                },
-                "cpu": "삼성 엑시노스 9 Series (9820) SoC",
-                "ram": "8 GB LPDDR4X SDRAM",
-                "size": "74.1 x 157.6 x 7.8 mm",
-                "weight": "175",
-                "battery": "4100",
-                "charge": "유선, 무선(고속, 일반)",
-                "os": "Android 9",
-                "color": ["Prism Black", "Prism white", "ceramic black", "ceramic white","flamingo pink"],
-                "memory": [128, 512, 1024],
-                "waterproof": "IP68"
-            },
-            {
-                "id": "Galaxy-S10",
-                "name": "Galaxy S10",
-                "date": "2019.02",
-                "display": {
-                    "size": "6.1",
-                    "resolution": "3040 x 1440",
-                    "type": "Infinity-O Display",
-                    "ppi": "550"
-                },
-                "cpu": "삼성 엑시노스 9 Series (9820) SoC",
-                "ram": "8 GB LPDDR4X SDRAM",
-                "size": "70.4 x 149.9 x 7.8 mm",
-                "weight": "157",
-                "battery": "3400",
-                "charge": "유선, 무선(고속, 일반)",
-                "os": "Android 9",
-                "color": ["prism Black", "prism white", "prism green", "flamingo pink"],
-                "memory": [128, 512],
-                "waterproof": "IP68"
-            },
-            {
-                "id": "Galaxy-S10e",
-                "name": "Galaxy S10e",
-                "date": "2019.02",
-                "display": {
-                    "size": "5.8",
-                    "resolution": "2280 x 1080",
-                    "type": "Infinity-O Display",
-                    "ppi": "438"
-                },
-                "cpu": "삼성 엑시노스 9 Series (9820) SoC",
-                "ram": "6 GB LPDDR4X SDRAM",
-                "size": "69.9 x 142.2 x 7.9 mm",
-                "weight": "150",
-                "battery": "3100",
-                "charge": "유선, 무선(고속, 일반)",
-                "os": "Android 9",
-                "color": ["prism Black", "prism white", "canaria yellow"],
-                "memory": [128],
-                "waterproof": "IP68"
-            },
-            {
-                "id": "Galaxy-S10-5G",
-                "name": "Galaxy S10 5G",
-                "date": "2019.02",
-                "display": {
-                    "size": "6.7",
-                    "resolution": "3040 x 1440",
-                    "type": "Infinity-O Display",
-                    "ppi": "505"
-                },
-                "cpu": "삼성 엑시노스 9 Series (9820) SoC",
-                "ram": "8 GB LPDDR4X SDRAM",
-                "size": "77.1 x 162.6 x 7.94 mm",
-                "weight": "198",
-                "battery": "4500",
-                "charge": "유선, 무선(고속, 일반)",
-                "os": "Android 9",
-                "color": ["majestic Black", "royal Gold", "crown Silver"],
-                "memory": [256, 512],
-                "waterproof": "IP68"
-            },
-            {
-                "id": "Galaxy-S9",
-                "name": "Galaxy S9",
-                "date": "2018.02",
-                "display": {
-                    "size": "5.8",
-                    "resolution": "2960 x 1440",
-                    "type": "Infinity Display",
-                    "ppi": "570"
-                },
-                "cpu": "삼성 엑시노스 9 Series (9810) SoC.",
-                "ram": "4 GB LPDDR4X SDRAM",
-                "size": "68.7 x 147.7 x 8.5 mm",
-                "weight": "163",
-                "battery": "3000",
-                "charge": "유선, 무선(고속, 일반)",
-                "os": "Android 8.0",
-                "color":  ["midnight black", "coral blue", "lilac purple", "burgundy red", "sunrise gold", "polaris blue"],
-                "memory": [64, 128, 256],
-                "waterproof": "IP68"
-            },
-            {
-                "id": "Galaxy-S9+",
-                "name": "Galaxy S9+",
-                "date": "2018.02",
-                "display": {
-                    "size": "5.8",
-                    "resolution": "2960 x 1440",
-                    "type": "Infinity Display",
-                    "ppi": "529"
-                },
-                "cpu": "삼성 엑시노스 9 Series (9810) SoC.",
-                "ram": "6 GB LPDDR4X SDRAM",
-                "size": "73.8 x 158.1 x 8.5 mm",
-                "weight": "189",
-                "battery": "3500",
-                "charge": "유선, 무선(고속, 일반)",
-                "os": "Android 8.0",
-                "color": ["midnight black", "coral blue", "lilac purple", "burgundy red", "sunrise gold"],
-                "memory": [64, 256],
-                "waterproof": "IP68"
-            }
-        ]
+  "apple": [
+    {
+      "id": "iphone11pro",
+      "name": "iPhone 11 Pro",
+      "date": "2019. 09",
+      "display": {
+        "size": "5.8",
+        "resolution": "2436 x 1125",
+        "type": "Super Retina XDR 디스플레이",
+        "ppi": "458"
+      },
+      "cpu": "Apple A13 Bionic APL1W85 SoC",
+      "ram": "4 GB LPDDR4X SDRAM",
+      "size": "71.4 x 144 x 8.1",
+      "weight": "188",
+      "battery": "3046",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "iOS 13.0",
+      "color": ["spacegray", "apple silver", "apple gold", "midnightgreen"],
+      "memory": [64, 256, 512],
+      "waterproof": "IP68"
+    }
+  ],
+  "samsung": [
+    {
+      "id": "galaxys20ultra",
+      "name": "Galaxy S20 Ultra 5G",
+      "date": "2020.02",
+      "display": {
+        "size": "6.9",
+        "resolution": "3200 x 1440",
+        "type": "Dynamic AMOLED",
+        "ppi": "511"
+      },
+      "cpu": "퀄컴 스냅드래곤 865 SM8250",
+      "ram": "12 GB LPDDR5 SDRAM",
+      "size": "76 x 166.9 x 8.8 mm",
+      "weight": "186",
+      "battery": "4500",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 10",
+      "color": ["cosmicblack", "cosmicgray"],
+      "memory": [128, 256, 512],
+      "waterproof": "IP68"
+    },
+    {
+      "id": "galaxys20plus",
+      "name": "Galaxy S20+ 5G",
+      "date": "2020.02",
+      "display": {
+        "size": "6.7",
+        "resolution": "3200 x 1440",
+        "type": "Dynamic AMOLED",
+        "ppi": "525"
+      },
+      "cpu": "퀄컴 스냅드래곤 865 SM8250",
+      "ram": "12 GB LPDDR5 SDRAM",
+      "size": "73.7 x 161.9 x 7.8 mm",
+      "weight": "186",
+      "battery": "4500",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 10",
+      "color": ["cosmicgray", "cloudblue", "cloudwhite"],
+      "memory": [128, 256, 512],
+      "waterproof": "IP68"
+    },
+    {
+      "id": "galaxys20",
+      "name": "Galaxy S20 5G",
+      "date": "2020.02",
+      "display": {
+        "size": "6.2",
+        "resolution": "3200 x 1440",
+        "type": "Dynamic AMOLED",
+        "ppi": "563"
+      },
+      "cpu": "퀄컴 스냅드래곤 865 SM8250",
+      "ram": "12 GB LPDDR5 SDRAM",
+      "size": "69.1 x 151.7 x 7.9 mm",
+      "weight": "163",
+      "battery": "4000",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 10",
+      "color": ["cosmicgray", "cloudblue", "cloudwhite"],
+      "memory": [128],
+      "waterproof": "IP68"
+    },
+    {
+      "id": "galaxys105g",
+      "name": "Galaxy S10 5G",
+      "date": "2019.02",
+      "display": {
+        "size": "6.7",
+        "resolution": "3040 x 1440",
+        "type": "Dynamic AMOLED",
+        "ppi": "505"
+      },
+      "cpu": "삼성 엑시노스 9 Series (9820) SoC",
+      "ram": "8 GB LPDDR4X SDRAM",
+      "size": "77.1 x 162.6 x 7.94 mm",
+      "weight": "198",
+      "battery": "4500",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 9",
+      "color": ["majesticblack", "royalgold", "crownsilver"],
+      "memory": [256, 512],
+      "waterproof": "IP68"
+    },
+    {
+      "id": "galaxys10plus",
+      "name": "Galaxy S10+",
+      "date": "2019.02",
+      "display": {
+        "size": "6.4",
+        "resolution": "3040 x 1440",
+        "type": "Dynamic AMOLED",
+        "ppi": "522"
+      },
+      "cpu": "삼성 엑시노스 9 Series (9820) SoC",
+      "ram": "8 GB LPDDR4X SDRAM",
+      "size": "74.1 x 157.6 x 7.8 mm",
+      "weight": "175",
+      "battery": "4100",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 9",
+      "color": [
+        "prismblack",
+        "prismwhite",
+        "ceramicblack",
+        "ceramicwhite",
+        "flamingopink"
+      ],
+      "memory": [128, 512, 1024],
+      "waterproof": "IP68"
+    },
+    {
+      "id": "galaxys10",
+      "name": "Galaxy S10",
+      "date": "2019.02",
+      "display": {
+        "size": "6.1",
+        "resolution": "3040 x 1440",
+        "type": "Dynamic AMOLED",
+        "ppi": "550"
+      },
+      "cpu": "삼성 엑시노스 9 Series (9820) SoC",
+      "ram": "8 GB LPDDR4X SDRAM",
+      "size": "70.4 x 149.9 x 7.8 mm",
+      "weight": "157",
+      "battery": "3400",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 9",
+      "color": ["prismblack", "prismwhite", "prismgreen", "flamingopink"],
+      "memory": [128, 512],
+      "waterproof": "IP68"
+    },
+    {
+      "id": "galaxys10e",
+      "name": "Galaxy S10e",
+      "date": "2019.02",
+      "display": {
+        "size": "5.8",
+        "resolution": "2280 x 1080",
+        "type": "Dynamic AMOLED",
+        "ppi": "438"
+      },
+      "cpu": "삼성 엑시노스 9 Series (9820) SoC",
+      "ram": "6 GB LPDDR4X SDRAM",
+      "size": "69.9 x 142.2 x 7.9 mm",
+      "weight": "150",
+      "battery": "3100",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 9",
+      "color": ["prismblack", "prismwhite", "canariayellow"],
+      "memory": [128],
+      "waterproof": "IP68"
+    },
+    {
+      "id": "galaxys9plus",
+      "name": "Galaxy S9+",
+      "date": "2018.02",
+      "display": {
+        "size": "5.8",
+        "resolution": "2960 x 1440",
+        "type": "Super AMOLED",
+        "ppi": "529"
+      },
+      "cpu": "삼성 엑시노스 9 Series (9810) SoC.",
+      "ram": "6 GB LPDDR4X SDRAM",
+      "size": "73.8 x 158.1 x 8.5 mm",
+      "weight": "189",
+      "battery": "3500",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 8.0",
+      "color": [
+        "midnightblack",
+        "coralblue",
+        "lilacpurple",
+        "burgundyred",
+        "sunrisegold"
+      ],
+      "memory": [64, 256],
+      "waterproof": "IP68"
+    },
+    {
+      "id": "galaxys9",
+      "name": "Galaxy S9",
+      "date": "2018.02",
+      "display": {
+        "size": "5.8",
+        "resolution": "2960 x 1440",
+        "type": "Super AMOLED",
+        "ppi": "570"
+      },
+      "cpu": "삼성 엑시노스 9 Series (9810) SoC.",
+      "ram": "4 GB LPDDR4X SDRAM",
+      "size": "68.7 x 147.7 x 8.5 mm",
+      "weight": "163",
+      "battery": "3000",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 8.0",
+      "color": ["midnightblack", "coralblue", "lilacpurple", "titaniumgray"],
+      "memory": [64, 128, 256],
+      "waterproof": "IP68"
+    },
+
+    {
+      "id": "galaxys8",
+      "name": "Galaxy S8",
+      "date": "2017.02",
+      "display": {
+        "size": "5.8",
+        "resolution": "2960 x 1440",
+        "type": "Super AMOLED",
+        "ppi": "529"
+      },
+      "cpu": "삼성 엑시노스 9 Series (9810) SoC.",
+      "ram": "6 GB LPDDR4X SDRAM",
+      "size": "73.8 x 158.1 x 8.5 mm",
+      "weight": "189",
+      "battery": "3500",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 8.0",
+      "color": ["midnightblack", "coralblue", "lilacpurple", "titaniumgray"],
+      "memory": [64, 256],
+      "waterproof": "IP68"
+    }
+  ]
 }
