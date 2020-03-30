@@ -1,7 +1,7 @@
 <template>
   <div class="ui center aligned container">
     <br />
-    <img :v-if="phone" :src="phone.img" />
+    <img :src="phone.img" />
     <h1>{{ phone.name }}</h1>
     <h3>색상</h3>
     <a
@@ -186,8 +186,8 @@ img {
 
 @media all and (max-width: 768px) {
   img {
-    width: 290px;
-    height: 400px;
+    width:  150px;
+    height: 200px;
   }
 }
 </style>
