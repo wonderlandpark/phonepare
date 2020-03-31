@@ -1,1 +1,204 @@
-.spacegray[data-v-5db04dd8]{background:#535150!important;color:#f9f9f9!important}.apple.silver[data-v-5db04dd8]{background:#ebebe3!important}.apple.gold[data-v-5db04dd8]{background:#fad7bd!important}.midnightgreen[data-v-5db04dd8]{background:#4e5851!important;color:#f9f9f9!important}.cosmicblack[data-v-5db04dd8]{background:#2d2926!important;color:#f9f9f9!important}.cosmicgray[data-v-5db04dd8]{background:#5f6367!important;color:#f9f9f9!important}.cloudblue[data-v-5db04dd8]{background:#a4c8e1!important;color:#f9f9f9!important}.cloudwhite[data-v-5db04dd8]{background:#ece8e4!important}.crownsilver[data-v-5db04dd8]{background:#dbdbdb!important}.majesticblack[data-v-5db04dd8]{background:#000!important;color:#f9f9f9!important}.royalgold[data-v-5db04dd8]{background:#cab8a0!important;color:#f9f9f9!important}.prismblack[data-v-5db04dd8]{background:#040301!important;color:#f9f9f9!important}.prismwhite[data-v-5db04dd8]{background:#d5eef1!important}.ceramicwhite[data-v-5db04dd8]{background:#f4f1ed!important}.ceramicblack[data-v-5db04dd8]{background:#2a2620!important;color:#f9f9f9!important}.flamingopink[data-v-5db04dd8]{background:#f2756d!important;color:#f9f9f9!important}.prismgreen[data-v-5db04dd8]{background:#1c6c78!important;color:#f9f9f9!important}.canariayellow[data-v-5db04dd8]{background:#d9de4c!important;color:#f9f9f9!important}.midnightblack[data-v-5db04dd8]{background:#000!important;color:#f9f9f9!important}.coralblue[data-v-5db04dd8]{background:#95b6e1!important;color:#f9f9f9!important}.titaniumgray[data-v-5db04dd8]{background:#7c7b81!important;color:#f9f9f9!important}.lilacpurple[data-v-5db04dd8]{background:#c19ebe!important;color:#f9f9f9!important}.deepseablue[data-v-5db04dd8]{background:#8f8b9c!important;color:#f9f9f9!important}.orchidgray[data-v-5db04dd8]{background:#183168!important;color:#f9f9f9!important}.maplegold[data-v-5db04dd8]{background:#c4b69c!important;color:#f9f9f9!important}.oceanblue[data-v-5db04dd8]{background:#183168!important;color:#f9f9f9!important}.lavenderpurple[data-v-5db04dd8]{background:#c19ebe!important;color:#000!important}.metalliccopper[data-v-5db04dd8]{background:#d29880!important}.applepurple[data-v-5db04dd8]{background:#d1cdda!important}.appleyellow[data-v-5db04dd8]{background:#ffe681!important}.applegreen[data-v-5db04dd8]{background:#aee1cd!important}.productred[data-v-5db04dd8]{background:#ba0c2e!important;color:#f9f9f9!important}.applegray[data-v-5db04dd8]{background:#262529!important;color:#fff!important}.aurared[data-v-5db04dd8]{background:#ff4848!important;color:#fff!important}.aurapink[data-v-5db04dd8]{background:#fd846e!important;color:#fff!important}.auraglow[data-v-5db04dd8]{background:-webkit-gradient(linear,left top,right top,from(#cdc0c9),color-stop(#be9eaf),color-stop(#3f77bb),to(#00bbcd))!important;background:linear-gradient(90deg,#cdc0c9,#be9eaf,#3f77bb,#00bbcd)!important}.aurablue[data-v-5db04dd8]{background:#072676!important;color:#fff!important}.aura.white[data-v-5db04dd8]{background:#f5f5f5!important}.prismblue[data-v-5db04dd8]{background:#95b6e1!important}.appleblue[data-v-5db04dd8]{background:#51b8f2!important}.rose.gold[data-v-5db04dd8]{background:#f9d2ce!important}.coral[data-v-5db04dd8]{background:#ff6e5a!important;color:#fff!important}.zetblack[data-v-5db04dd8]{background:#000!important;color:#fff!important}.appleblack[data-v-5db04dd8]{background:#353535!important;color:#fff!important}.oldspacegray[data-v-5db04dd8]{background:#b1b2b7!important;color:#fff}img[data-v-5db04dd8]{width:350px;height:444px}@media (max-width:768px){img[data-v-5db04dd8]{width:150px;height:200px}}.size[data-v-6d81b29e]{font-size:4em}#app{font-family:Avenir,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-align:center;color:#2c3e50;margin-top:60px}.logo{width:100%}
+.spacegray[data-v-5db04dd8] {
+  background: #535150 !important;
+  color: #f9f9f9 !important;
+}
+.apple.silver[data-v-5db04dd8] {
+  background: #ebebe3 !important;
+}
+.apple.gold[data-v-5db04dd8] {
+  background: #fad7bd !important;
+}
+.midnightgreen[data-v-5db04dd8] {
+  background: #4e5851 !important;
+  color: #f9f9f9 !important;
+}
+.cosmicblack[data-v-5db04dd8] {
+  background: #2d2926 !important;
+  color: #f9f9f9 !important;
+}
+.cosmicgray[data-v-5db04dd8] {
+  background: #5f6367 !important;
+  color: #f9f9f9 !important;
+}
+.cloudblue[data-v-5db04dd8] {
+  background: #a4c8e1 !important;
+  color: #f9f9f9 !important;
+}
+.cloudwhite[data-v-5db04dd8] {
+  background: #ece8e4 !important;
+}
+.crownsilver[data-v-5db04dd8] {
+  background: #dbdbdb !important;
+}
+.majesticblack[data-v-5db04dd8] {
+  background: #000 !important;
+  color: #f9f9f9 !important;
+}
+.royalgold[data-v-5db04dd8] {
+  background: #cab8a0 !important;
+  color: #f9f9f9 !important;
+}
+.prismblack[data-v-5db04dd8] {
+  background: #040301 !important;
+  color: #f9f9f9 !important;
+}
+.prismwhite[data-v-5db04dd8] {
+  background: #d5eef1 !important;
+}
+.ceramicwhite[data-v-5db04dd8] {
+  background: #f4f1ed !important;
+}
+.ceramicblack[data-v-5db04dd8] {
+  background: #2a2620 !important;
+  color: #f9f9f9 !important;
+}
+.flamingopink[data-v-5db04dd8] {
+  background: #f2756d !important;
+  color: #f9f9f9 !important;
+}
+.prismgreen[data-v-5db04dd8] {
+  background: #1c6c78 !important;
+  color: #f9f9f9 !important;
+}
+.canariayellow[data-v-5db04dd8] {
+  background: #d9de4c !important;
+  color: #f9f9f9 !important;
+}
+.midnightblack[data-v-5db04dd8] {
+  background: #000 !important;
+  color: #f9f9f9 !important;
+}
+.coralblue[data-v-5db04dd8] {
+  background: #95b6e1 !important;
+  color: #f9f9f9 !important;
+}
+.titaniumgray[data-v-5db04dd8] {
+  background: #7c7b81 !important;
+  color: #f9f9f9 !important;
+}
+.lilacpurple[data-v-5db04dd8] {
+  background: #c19ebe !important;
+  color: #f9f9f9 !important;
+}
+.deepseablue[data-v-5db04dd8] {
+  background: #8f8b9c !important;
+  color: #f9f9f9 !important;
+}
+.orchidgray[data-v-5db04dd8] {
+  background: #183168 !important;
+  color: #f9f9f9 !important;
+}
+.maplegold[data-v-5db04dd8] {
+  background: #c4b69c !important;
+  color: #f9f9f9 !important;
+}
+.oceanblue[data-v-5db04dd8] {
+  background: #183168 !important;
+  color: #f9f9f9 !important;
+}
+.lavenderpurple[data-v-5db04dd8] {
+  background: #c19ebe !important;
+  color: #000 !important;
+}
+.metalliccopper[data-v-5db04dd8] {
+  background: #d29880 !important;
+}
+.applepurple[data-v-5db04dd8] {
+  background: #d1cdda !important;
+}
+.appleyellow[data-v-5db04dd8] {
+  background: #ffe681 !important;
+}
+.applegreen[data-v-5db04dd8] {
+  background: #aee1cd !important;
+}
+.productred[data-v-5db04dd8] {
+  background: #ba0c2e !important;
+  color: #f9f9f9 !important;
+}
+.applegray[data-v-5db04dd8] {
+  background: #262529 !important;
+  color: #fff !important;
+}
+.aurared[data-v-5db04dd8] {
+  background: #ff4848 !important;
+  color: #fff !important;
+}
+.aurapink[data-v-5db04dd8] {
+  background: #fd846e !important;
+  color: #fff !important;
+}
+.auraglow[data-v-5db04dd8] {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#cdc0c9),
+    color-stop(#be9eaf),
+    color-stop(#3f77bb),
+    to(#00bbcd)
+  ) !important;
+  background: linear-gradient(
+    90deg,
+    #cdc0c9,
+    #be9eaf,
+    #3f77bb,
+    #00bbcd
+  ) !important;
+}
+.aurablue[data-v-5db04dd8] {
+  background: #072676 !important;
+  color: #fff !important;
+}
+.aura.white[data-v-5db04dd8] {
+  background: #f5f5f5 !important;
+}
+.prismblue[data-v-5db04dd8] {
+  background: #95b6e1 !important;
+}
+.appleblue[data-v-5db04dd8] {
+  background: #51b8f2 !important;
+}
+.rose.gold[data-v-5db04dd8] {
+  background: #f9d2ce !important;
+}
+.coral[data-v-5db04dd8] {
+  background: #ff6e5a !important;
+  color: #fff !important;
+}
+.zetblack[data-v-5db04dd8] {
+  background: #000 !important;
+  color: #fff !important;
+}
+.appleblack[data-v-5db04dd8] {
+  background: #353535 !important;
+  color: #fff !important;
+}
+.oldspacegray[data-v-5db04dd8] {
+  background: #b1b2b7 !important;
+  color: #fff;
+}
+img[data-v-5db04dd8] {
+  width: 350px;
+  height: 444px;
+}
+@media (max-width: 768px) {
+  img[data-v-5db04dd8] {
+    width: 150px;
+    height: 200px;
+  }
+}
+.size[data-v-6d81b29e] {
+  font-size: 4em;
+}
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+.logo {
+  width: 100%;
+}

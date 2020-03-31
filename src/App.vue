@@ -26,7 +26,6 @@ export default {
   margin-top: 60px;
 }
 
-
 .phonepare {
   font-size: 10em;
 }
