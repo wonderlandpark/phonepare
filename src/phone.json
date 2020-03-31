@@ -148,6 +148,33 @@
         }
       },
       {
+        "id": "iphonexr",
+        "name": "iPhone XR",
+        "date": "2018.09",
+        "display": {
+          "size": "6.1",
+          "resolution": "1792 x 828",
+          "type": "Liquid Retina HD Display",
+          "ppi": "326"
+        },
+        "cpu": "Apple A12 Bionic APL1W81 SoC.",
+        "ram": "3 GB LPDDR4X SDRAM",
+        "size": "71.4 x 144 x 8.1",
+        "weight": "194",
+        "battery": "2942",
+        "charge": "유선, 무선(고속, 일반)",
+        "os": "iOS 12.0",
+        "color": ["black", "white", "appleblue", "appleyellow", "productred", "coral"],
+        "memory": [64, 128, 256],
+        "waterproof": "IP67",
+        "camera": {
+            "front": ["7MP"],
+            "back": [
+              "12MP(OIS 지원)"
+            ]
+          }
+      },
+      {
         "id": "iphonex",
         "name": "iPhone X",
         "date": "2017. 11",
@@ -175,33 +202,6 @@
             "광학 1.8배줌 지원"
           ]
         }
-      },
-      {
-        "id": "iphonexr",
-        "name": "iPhone XR",
-        "date": "2018.09",
-        "display": {
-          "size": "6.1",
-          "resolution": "1792 x 828",
-          "type": "Liquid Retina HD Display",
-          "ppi": "326"
-        },
-        "cpu": "Apple A12 Bionic APL1W81 SoC.",
-        "ram": "3 GB LPDDR4X SDRAM",
-        "size": "71.4 x 144 x 8.1",
-        "weight": "194",
-        "battery": "2942",
-        "charge": "유선, 무선(고속, 일반)",
-        "os": "iOS 12.0",
-        "color": ["black", "white", "appleblue", "appleyellow", "productred", "coral"],
-        "memory": [64, 128, 256],
-        "waterproof": "IP67",
-        "camera": {
-            "front": ["7MP"],
-            "back": [
-              "12MP(OIS 지원)"
-            ]
-          }
       },
       {
         "id": "iphone8plus",
