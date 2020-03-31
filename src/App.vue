@@ -27,6 +27,7 @@ export default {
 }
 
 .phonepare {
-  font-size: 10em;
+  font-size: 5em;
+  width: 100%;
 }
 </style>
