@@ -18,9 +18,36 @@ export function getDropdown(company) {
 }
 
 export function getData(company, id) {
-  console.log(company, id);
-  if (!phones[company]) return {};
-  const r = { img: "/phone/NotSelected.jpg" };
+  const r = {
+    "id": "notselected",
+    "img": "/phone/NotSelected.jpg",
+    "name": "제품을 선택해주세요!!",
+    "date": "-",
+    "display": {
+      "size": "-",
+      "resolution": "-",
+      "type": "-",
+      "ppi": "-"
+    },
+    "cpu": "-",
+    "ram": "-",
+    "size": "-",
+    "weight": "-",
+    "battery": "-",
+    "charge": "-",
+    "os": "-",
+    "color": ['-'],
+    "memory": ['-'],
+    "waterproof": "-",
+    "camera": {
+      "front": ["-"],
+      "back": [
+        "-" 
+      ]
+    }
+  };
+  if (!phones[company]) return r
+  
   if (!phones[company].find(r => r.id === id)) return r;
   console.log(phones);
   const res = phones[company].find(r => r.id === id);

@@ -4,11 +4,7 @@
       <h1>핸드폰끼리 비교해드립니다.</h1>
       <div class="ui center aligned grid">
         <div
-          :class="{
-            'ui three column row': window.width > 1199,
-            'ui two column row': window.width <= 1199
-          }"
-        >
+          class="ui three column row">
           <div class="column">
             <Selection
               v-on:selected="first"
@@ -27,7 +23,7 @@
             />
             <Phone :id="two" :company="twoc" />
           </div>
-          <div class="column" v-if="window.width > 1199">
+          <div class="column third">
             <Selection
               v-on:selected="third"
               v-on:company="fuckingthird"
@@ -42,18 +38,14 @@
       <div class="ui divider" />
       <div class="ui center aligned grid">
         <div
-          :class="{
-            'ui three column row': window.width > 1199,
-            'ui two column row': window.width <= 1199
-          }"
-        >
+          class="ui three column row">
           <div class="column">
             <General :id="one" :company="onec" />
           </div>
           <div class="column">
             <General :id="two" :company="twoc" />
           </div>
-          <div class="column" v-if="window.width > 1199">
+          <div class="column third">
             <General :id="three" :company="threec" />
           </div>
         </div>
@@ -62,18 +54,14 @@
       <div class="ui divider" />
       <div class="ui center aligned grid">
         <div
-          :class="{
-            'ui three column row': window.width > 1199,
-            'ui two column row': window.width <= 1199
-          }"
-        >
+          class="ui three column row">
           <div class="column">
             <Battery :id="one" :company="onec" />
           </div>
           <div class="column">
             <Battery :id="two" :company="twoc" />
           </div>
-          <div class="column" v-if="window.width > 1199">
+          <div class="column third">
             <Battery :id="three" :company="threec" />
           </div>
         </div>
@@ -83,18 +71,14 @@
       <div class="ui divider" />
       <div class="ui center aligned grid">
         <div
-          :class="{
-            'ui three column row': window.width > 1199,
-            'ui two column row': window.width <= 1199
-          }"
-        >
+          class="ui three column row">
           <div class="column">
             <Display :id="one" :company="onec" />
           </div>
           <div class="column">
             <Display :id="two" :company="twoc" />
           </div>
-          <div class="column" v-if="window.width > 1199">
+          <div class="column third">
             <Display :id="three" :company="threec" />
           </div>
         </div>
@@ -104,18 +88,14 @@
       <div class="ui divider" />
       <div class="ui center aligned grid">
         <div
-          :class="{
-            'ui three column row': window.width > 1199,
-            'ui two column row': window.width <= 1199
-          }"
-        >
+          class="ui three column row">
           <div class="column">
             <Camera :id="one" :company="onec" />
           </div>
           <div class="column">
             <Camera :id="two" :company="twoc" />
           </div>
-          <div class="column" v-if="window.width > 1199">
+          <div class="column third">
             <Camera :id="three" :company="threec" />
           </div>
         </div>
@@ -124,18 +104,14 @@
       <div class="ui divider" />
       <div class="ui center aligned grid">
         <div
-          :class="{
-            'ui three column row': window.width > 1199,
-            'ui two column row': window.width <= 1199
-          }"
-        >
+          class="ui three column row">
           <div class="column">
             <Memory :id="one" :company="onec" />
           </div>
           <div class="column">
             <Memory :id="two" :company="twoc" />
           </div>
-          <div class="column" v-if="window.width > 1199">
+          <div class="column third">
             <Memory :id="three" :company="threec" />
           </div>
         </div>
@@ -144,18 +120,14 @@
       <div class="ui divider" />
       <div class="ui center aligned grid">
         <div
-          :class="{
-            'ui three column row': window.width > 1199,
-            'ui two column row': window.width <= 1199
-          }"
-        >
+          class="ui three column row">
           <div class="column">
             <Size :id="one" :company="onec" />
           </div>
           <div class="column">
             <Size :id="two" :company="twoc" />
           </div>
-          <div class="column" v-if="window.width > 1199">
+          <div class="column third">
             <Size :id="three" :company="threec" />
           </div>
         </div>
@@ -164,18 +136,14 @@
       <div class="ui divider" />
       <div class="ui center aligned grid">
         <div
-          :class="{
-            'ui three column row': window.width > 1199,
-            'ui two column row': window.width <= 1199
-          }"
-        >
+          class="ui three column row">
           <div class="column">
             <Others :id="one" :company="onec" />
           </div>
           <div class="column">
             <Others :id="two" :company="twoc" />
           </div>
-          <div class="column" v-if="window.width > 1199">
+          <div class="column third">
             <Others :id="three" :company="threec" />
           </div>
         </div>
@@ -260,3 +228,11 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+@media screen and (max-width: 1200px){
+  three {
+    display: none;
+  }
+}
+</style>

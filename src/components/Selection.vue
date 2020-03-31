@@ -49,19 +49,28 @@ export default {
       product: "",
       options: [
         {
-          text: "Apple",
-          value: "apple"
+          text: "애플",
+          value: "apple",
+          icon: 'apple'
         },
         {
-          text: "Samsung",
-          value: "samsung"
+          text: "삼성전자",
+          value: "samsung",
+          image: { src: "/icon/samsung.jpg"}
         },
         {
-          text: "LG",
-          value: "lg"
+          text: "LG전자",
+          value: "lg",
+          image: { src: "/icon/lg.jpg"}
         }
       ]
     };
   }
 };
 </script>
+
+<style scoped>
+i.icon.apple {
+  width: 28px !important;
+}
+</style>
