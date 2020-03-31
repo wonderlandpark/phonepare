@@ -1,4 +1,4 @@
-# Phone Hub
+# Phonepae
 
 폰을 선택해서 비교하는 웹입니다.
 
