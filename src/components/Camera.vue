@@ -2,14 +2,13 @@
   <div class="ui center aligned container">
     <h3>전면 카메라</h3>
     <p v-for="cam in phone.camera.front" :key="cam">
-      {{cam}}
+      {{ cam }}
     </p>
     <h3>후면 카메라</h3>
     <p v-for="cam in phone.camera.back" :key="cam">
-      {{cam}}
+      {{ cam }}
     </p>
   </div>
-
 </template>
 
 <script>

@@ -77,7 +77,7 @@
             <Battery :id="three" :company="threec" />
           </div>
         </div>
-      </div>      
+      </div>
 
       <h2 class="ui left aligned header">디스플레이</h2>
       <div class="ui divider" />
@@ -100,7 +100,7 @@
         </div>
       </div>
 
-  <h2 class="ui left aligned header">카메라</h2>
+      <h2 class="ui left aligned header">카메라</h2>
       <div class="ui divider" />
       <div class="ui center aligned grid">
         <div

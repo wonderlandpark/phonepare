@@ -34,8 +34,10 @@ export default {
       this.$data.phone = getData(this.company, this.id);
     }
   },
-    created() {
-    window.addEventListener("resize", ()=>{ this.$data.a = window.innerWidth});
+  created() {
+    window.addEventListener("resize", () => {
+      this.$data.a = window.innerWidth;
+    });
     this.handleResize();
   },
   data() {
@@ -152,18 +154,18 @@ export default {
 }
 
 .lavenderpurple {
-  background: #C19EBE !important;
+  background: #c19ebe !important;
   color: #000 !important;
 }
 
 .metalliccopper {
-  background: #D29880 !important;
+  background: #d29880 !important;
 }
 .applepurple {
   background: #d1cdda !important;
 }
 
-.appleyellow{
+.appleyellow {
   background: #ffe681 !important;
 }
 
@@ -177,21 +179,27 @@ export default {
 
 .applegray {
   background: #262529 !important;
-  color: white !important
+  color: white !important;
 }
 
 .aurared {
-  background: #FF4848 !important;
+  background: #ff4848 !important;
   color: white !important;
 }
 
 .aurapink {
-  background: #FD846E !important;
+  background: #fd846e !important;
   color: white !important;
 }
 
 .auraglow {
-  background: linear-gradient(to right, #CDC0C9, #BE9EAF, #3F77BB, #00BBCD) !important;
+  background: linear-gradient(
+    to right,
+    #cdc0c9,
+    #be9eaf,
+    #3f77bb,
+    #00bbcd
+  ) !important;
 }
 
 .aurablue {
@@ -204,19 +212,19 @@ export default {
 }
 
 .prismblue {
-  background: #95B6E1 !important;
+  background: #95b6e1 !important;
 }
 
 .appleblue {
-  background: #51B8F2 !important;
+  background: #51b8f2 !important;
 }
 
 .rose.gold {
-  background: #F9D2CE !important;
+  background: #f9d2ce !important;
 }
 
 .coral {
-  background: #FF6E5A !important;
+  background: #ff6e5a !important;
   color: white !important;
 }
 
@@ -226,7 +234,7 @@ export default {
 }
 
 .appleblack {
-  background: #353535!important;
+  background: #353535 !important;
   color: white !important;
 }
 
@@ -241,7 +249,7 @@ img {
 
 @media all and (max-width: 768px) {
   img {
-    width:  150px;
+    width: 150px;
     height: 200px;
   }
 }
