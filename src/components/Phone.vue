@@ -204,7 +204,30 @@ export default {
 }
 
 .prismblue {
-  background: #95B6E1;
+  background: #95B6E1 !important;
+}
+
+.appleblue {
+  background: #51B8F2 !important;
+}
+
+.rose.gold {
+  background: #F9D2CE !important;
+}
+
+.coral {
+  background: #FF6E5A !important;
+  color: white !important;
+}
+
+.zetblack {
+  background: #000000 !important;
+  color: white !important;
+}
+
+.appleblack {
+  background: #353535!important;
+  color: white !important;
 }
 img {
   width: 350px;

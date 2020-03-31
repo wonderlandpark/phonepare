@@ -113,7 +113,7 @@
           "front": ["7MP"],
           "back": [
             "기본: 12MP(OIS 지원)",
-            "광각: 12MP(OIS 지원)",
+            "망원: 12MP(OIS 지원)",
             "광학 2배줌 지원"
           ]
         }
@@ -142,7 +142,7 @@
           "front": ["7MP"],
           "back": [
             "기본: 12MP(OIS 지원)",
-            "광각: 12MP(OIS 지원)",
+            "망원: 12MP(OIS 지원)",
             "광학 2배줌 지원"
           ]
         }
@@ -171,10 +171,256 @@
           "front": ["7MP"],
           "back": [
             "기본: 12MP(OIS 지원)",
-            "광각: 12MP(OIS 지원)",
+            "망원: 12MP(OIS 지원)",
             "광학 1.8배줌 지원"
           ]
         }
+      },
+      {
+        "id": "iphonexr",
+        "name": "iPhone XR",
+        "date": "2018.09",
+        "display": {
+          "size": "6.1",
+          "resolution": "1792 x 828",
+          "type": "Liquid Retina HD Display",
+          "ppi": "326"
+        },
+        "cpu": "Apple A12 Bionic APL1W81 SoC.",
+        "ram": "3 GB LPDDR4X SDRAM",
+        "size": "71.4 x 144 x 8.1",
+        "weight": "194",
+        "battery": "2942",
+        "charge": "유선, 무선(고속, 일반)",
+        "os": "iOS 12.0",
+        "color": ["black", "white", "appleblue", "appleyellow", "productred", "coral"],
+        "memory": [64, 128, 256],
+        "waterproof": "IP67",
+        "camera": {
+            "front": ["7MP"],
+            "back": [
+              "12MP(OIS 지원)"
+            ]
+          }
+      },
+      {
+        "id": "iphone8plus",
+        "name": "iPhone 8+",
+        "date": "2017.09",
+        "display": {
+          "size": "5.5",
+          "resolution": " 2208 x 1242",
+          "type": "Retina HD Display",
+          "ppi": "401"
+        },
+        "cpu": "Apple A11 Bionic APL1W72 SoC.",
+        "ram": "3 GB LPDDR4X SDRAM",
+        "size": "78.1 x 158.4 x 7.5 mm",
+        "weight": "202",
+        "battery": "2691",
+        "charge": "유선, 무선(고속, 일반)",
+        "os": "iOS 11.0",
+        "color": ["apple gold", "apple silver", "spacegray", "productred"],
+        "memory": [64, 128, 256],
+        "waterproof": "IP67",
+        "camera": {
+            "front": ["7MP"],
+            "back": [
+              "기본: 12MP(OIS 지원)",
+              "망원: 12MP",
+              "광학 1.8배줌 지원"
+            ]
+          }
+      },
+      {
+        "id": "iphone8",
+        "name": "iPhone 8",
+        "date": "2017.09",
+        "display": {
+          "size": "4.7",
+          "resolution": " 1334 x 750",
+          "type": "Retina HD Display",
+          "ppi": "326"
+        },
+        "cpu": "Apple A11 Bionic APL1W72 SoC.",
+        "ram": "2 GB LPDDR4X SDRAM",
+        "size": "67.3 x 138.4 x 7.3 mm",
+        "weight": "148",
+        "battery": "1821",
+        "charge": "유선, 무선(고속, 일반)",
+        "os": "iOS 11.0",
+        "color": ["apple gold", "apple silver", "spacegray", "productred"],
+        "memory": [64, 128, 256],
+        "waterproof": "IP67",
+        "camera": {
+            "front": ["7MP"],
+            "back": [
+              "12MP(OIS 지원)"
+            ]
+          }
+      },
+      {
+        "id": "iphone7plus",
+        "name": "iPhone 7+",
+        "date": "2016.09",
+        "display": {
+          "size": "5.5",
+          "resolution": "2208 x 1242",
+          "type": "Retina HD Display",
+          "ppi": "401"
+        },
+        "cpu": "Apple A10 Fusion APL1W24 SoC.",
+        "ram": "2 GB LPDDR4X SDRAM",
+        "size": "77.9 x 158.2 x 7.3 mm",
+        "weight": "188",
+        "battery": "2900",
+        "charge": "유선",
+        "os": "iOS 10.0",
+        "color": ["rose gold", "apple gold", "apple silver", "appleblack", "zetblack", "productred"],
+        "memory": [32, 128, 256],
+        "waterproof": "IP67",
+        "camera": {
+            "front": ["7MP"],
+            "back": [
+              "12MP(OIS 지원)",
+              "12MP"
+            ]
+          }
+      },
+      {
+        "id": "iphone7",
+        "name": "iPhone 7",
+        "date": "2016.09",
+        "display": {
+          "size": "4.7",
+          "resolution": "1334 x 750",
+          "type": "Retina HD Display",
+          "ppi": "326"
+        },
+        "cpu": "Apple A10 Fusion APL1W24 SoC.",
+        "ram": "2 GB LPDDR4X SDRAM",
+        "size": "67.1 x 138.3 x 7.1 mm",
+        "weight": "138",
+        "battery": "1960",
+        "charge": "유선",
+        "os": "iOS 10.0",
+        "color": ["rose gold", "apple gold", "apple silver", "appleblack", "zetblack", "productred"],
+        "memory": [32, 128, 256],
+        "waterproof": "IP67",
+        "camera": {
+            "front": ["7MP"],
+            "back": [
+              "12MP(OIS 지원)"
+            ]
+          }
+      },
+      {
+        "id": "iphone6splus",
+        "name": "iPhone 6s+",
+        "date": "2015.09",
+        "display": {
+          "size": "5.5",
+          "resolution": "2208 x 1242",
+          "type": "Retina HD Display",
+          "ppi": "401"
+        },
+        "cpu": "Apple A9 APL0898 & APL1022 SoC.",
+        "ram": "2 GB LPDDR4X SDRAM",
+        "size": "77.9 x 158.2 x 7.3 mm",
+        "weight": "192",
+        "battery": "2750",
+        "charge": "유선",
+        "os": "iOS 9.0",
+        "color": ["spacegray", "apple silver", "apple gold", "rose gold"],
+        "memory": [16, 32, 64, 128],
+        "waterproof": "지원하지 않음",
+        "camera": {
+            "front": ["5MP"],
+            "back": [
+              "12MP"
+            ]
+          }
+      },
+      {
+        "id": "iphone6s",
+        "name": "iPhone 6s",
+        "date": "2015.09",
+        "display": {
+          "size": "4.7",
+          "resolution": "1334 x 750",
+          "type": "Retina HD Display",
+          "ppi": "326"
+        },
+        "cpu": "Apple A9 APL0898 & APL1022 SoC.",
+        "ram": "2 GB LPDDR4X SDRAM",
+        "size": "67.1 x 138.3 x 7.1 mm",
+        "weight": "143",
+        "battery": "1715",
+        "charge": "유선",
+        "os": "iOS 9.0",
+        "color": ["spacegray", "apple silver", "apple gold", "rose gold"],
+        "memory": [16, 32, 64, 128],
+        "waterproof": "지원하지 않음",
+        "camera": {
+            "front": ["5MP"],
+            "back": [
+              "12MP"
+            ]
+          }
+      },
+      {
+        "id": "iphone6plus",
+        "name": "iPhone 6+",
+        "date": "2015.09",
+        "display": {
+          "size": "5.5",
+          "resolution": "2208 x 1242",
+          "type": "Retina HD Display",
+          "ppi": "401"
+        },
+        "cpu": "Apple A8 APL1011 SoC.",
+        "ram": "1 GB LPDDR3 SDRAM",
+        "size": "77.8 x 158.1 x 7.1 mm",
+        "weight": "172",
+        "battery": "2915",
+        "charge": "유선",
+        "os": "iOS 9.0",
+        "color": ["spacegray", "apple silver", "apple gold", "rose gold"],
+        "memory": [16, 64, 128],
+        "waterproof": "지원하지 않음",
+        "camera": {
+            "front": ["1.2MP"],
+            "back": [
+              "8MP(OIS지원)"
+            ]
+          }
+      },
+      {
+        "id": "iphone6",
+        "name": "iPhone 6",
+        "date": "2015.09",
+        "display": {
+          "size": "4.7",
+          "resolution": "1334 x 750",
+          "type": "Retina HD Display",
+          "ppi": "326"
+        },
+        "cpu": "Apple A8 APL1011 SoC.",
+        "ram": "1 GB LPDDR3 SDRAM",
+        "size": "67 x 138.1 x 6.9 mm",
+        "weight": "129",
+        "battery": "1810",
+        "charge": "유선",
+        "os": "iOS 9.0",
+        "color": ["spacegray", "apple silver", "apple gold"],
+        "memory": [16, 32, 64, 128],
+        "waterproof": "지원하지 않음",
+        "camera": {
+            "front": ["1.2MP"],
+            "back": [
+              "8MP"
+            ]
+          }
       }
   ],
   "samsung": [
