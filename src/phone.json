@@ -331,7 +331,7 @@
         "battery": "2750",
         "charge": "유선",
         "os": "iOS 9.0",
-        "color": ["spacegray", "apple silver", "apple gold", "rose gold"],
+        "color": ["oldspacegray", "apple silver", "apple gold", "rose gold"],
         "memory": [16, 32, 64, 128],
         "waterproof": "지원하지 않음",
         "camera": {
@@ -358,7 +358,7 @@
         "battery": "1715",
         "charge": "유선",
         "os": "iOS 9.0",
-        "color": ["spacegray", "apple silver", "apple gold", "rose gold"],
+        "color": ["oldspacegray", "apple silver", "apple gold", "rose gold"],
         "memory": [16, 32, 64, 128],
         "waterproof": "지원하지 않음",
         "camera": {
@@ -385,7 +385,7 @@
         "battery": "2915",
         "charge": "유선",
         "os": "iOS 9.0",
-        "color": ["spacegray", "apple silver", "apple gold", "rose gold"],
+        "color": ["oldspacegray", "apple silver", "apple gold", "rose gold"],
         "memory": [16, 64, 128],
         "waterproof": "지원하지 않음",
         "camera": {
@@ -412,7 +412,7 @@
         "battery": "1810",
         "charge": "유선",
         "os": "iOS 9.0",
-        "color": ["spacegray", "apple silver", "apple gold"],
+        "color": ["oldspacegray", "apple silver", "apple gold"],
         "memory": [16, 32, 64, 128],
         "waterproof": "지원하지 않음",
         "camera": {
@@ -437,8 +437,8 @@
       "cpu": "퀄컴 스냅드래곤 865 SM8250",
       "ram": "12 GB LPDDR5 SDRAM",
       "size": "76 x 166.9 x 8.8",
-      "weight": "186",
-      "battery": "4500",
+      "weight": "220",
+      "battery": "5000",
       "charge": "유선, 무선(고속, 일반)",
       "os": "Android 10",
       "color": ["cosmicblack", "cosmicgray"],

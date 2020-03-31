@@ -229,6 +229,11 @@ export default {
   background: #353535!important;
   color: white !important;
 }
+
+.oldspacegray {
+  background: #b1b2b7 !important;
+  color: white;
+}
 img {
   width: 350px;
   height: 444px;
