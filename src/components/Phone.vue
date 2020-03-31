@@ -1,7 +1,7 @@
 <template>
   <div class="ui center aligned container">
     <br />
-    <img :src="phone.img" />
+    <img :src="phone.img ? phone.img : '/phones/NotSelected.jpg'" />
     <h1>{{ phone.name }}</h1>
     <h3>색상</h3>
     <a

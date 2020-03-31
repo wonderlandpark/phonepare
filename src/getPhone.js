@@ -20,7 +20,8 @@ export function getDropdown(company) {
 export function getData(company, id) {
   console.log(company, id);
   if (!phones[company]) return {};
-  if (!phones[company].find(r => r.id === id)) return {};
+  const r = {img: '/phone/NotSelected.jpg'}
+  if (!phones[company].find(r => r.id === id)) return r;
   console.log(phones);
   const res = phones[company].find(r => r.id === id);
   res.img = `/phones/${res.id}.jpg`;

@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="ui container">
-    <img alt="logo" class="logo" src="./assets/logo.png" />
+    <h1 class="phonepare">Phonepare</h1>
     <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>
 </template>
@@ -26,7 +26,8 @@ export default {
   margin-top: 60px;
 }
 
-.logo {
-  width: 100%;
+
+.phonepare {
+  font-size: 10em;
 }
 </style>
