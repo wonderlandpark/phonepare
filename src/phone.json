@@ -876,7 +876,7 @@
     },
     {
       "id": "g8",
-      "name": "LG G8",
+      "name": "LG G8 ThinQ",
       "date": "2019. 2",
       "display": {
         "size": "6.1",
@@ -891,7 +891,7 @@
       "battery": "3500",
       "charge": "유선, 무선(고속, 일반)",
       "os": "Android 9",
-      "color": ["new aurora black", "new moroccan blue", "carmine red", "gradient red"],
+      "color": ["newaurorablack", "newmoroccanblue", "carminered"],
       "memory": [128, "외장 슬롯 지원"],
       "waterproof": "IP68",
       "camera": {
@@ -905,7 +905,7 @@
     },
     {
       "id": "v40",
-      "name": "LG V40",
+      "name": "LG V40 ThinQ",
       "date": "2018. 10",
       "display": {
         "size": "6.4",
@@ -920,7 +920,7 @@
       "battery": "3300",
       "charge": "유선, 무선(고속, 일반)",
       "os": "Android 8.1",
-      "color": ["new platinum gray", "new moroccan blue", "carmine red"],
+      "color": ["newplatinum gray", "newmoroccanblue", "carminered", "newaurorablack"],
       "memory": [128, "외장 슬롯 지원"],
       "waterproof": "IP68",
       "camera": {
@@ -934,7 +934,7 @@
     },
     {
       "id": "v30original",
-      "name": "LG V30(O)",
+      "name": "LG V30 ThinQ",
       "date": "2017. 8",
       "display": {
         "size": "6.0",
@@ -949,7 +949,7 @@
       "battery": "3300",
       "charge": "유선, 무선(고속, 일반)",
       "os": "Android 7.1",
-      "color": ["aurora black", "moroccan blue", "cloud silver", "lavender violet", "raspberry rose"],
+      "color": ["aurora black", "moroccanblue", "cloudsilver", "lavenderviolet", "raspberryrose"],
       "memory": [64, 128, "외장 슬롯 지원"],
       "waterproof": "IP68",
       "camera": {
@@ -962,7 +962,7 @@
     },
     {
       "id": "v30signature",
-      "name": "LG V30 Signature",
+      "name": "LG V30S ThinQ",
       "date": "2017. 8",
       "display": {
         "size": "6.0",

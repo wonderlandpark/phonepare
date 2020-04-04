@@ -242,6 +242,29 @@ export default {
   background: #b1b2b7 !important;
   color: white;
 }
+
+.newaurorablack {
+  background: #181D30 !important;
+  color: white !important;
+}
+.newmoroccanblue {
+  background: #003153 !important;
+  color: white !important
+}
+.carminered {
+  background: #6F1111 !important;
+  color: white !important;
+}
+.moroccanblue {
+  background: #003153 !important;
+  color: white !important;
+} 
+.cloudsilver {
+  background: #D3D3D3 !important;
+}
+.lavenderviolet {
+  background: #D8BFD8 !important;
+}
 img {
   width: 350px;
   height: 444px;
