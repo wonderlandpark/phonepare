@@ -20,7 +20,7 @@ export function getDropdown(company) {
 export function getData(company, id) {
   const r = {
     "id": "notselected",
-    "img": "/phone/NotSelected.jpg",
+    "img": "/phones/NotSelected.jpg",
     "name": "제품을 선택해주세요!!",
     "date": "-",
     "display": {
