@@ -846,7 +846,7 @@
   ],
   "lg": [
     {
-      "id": "lgv50",
+      "id": "v50",
       "name": "LG V50 ThinQ",
       "date": "2019. 02",
       "display": {
@@ -876,7 +876,7 @@
     },
     {
       "id": "g8",
-      "name": "G8",
+      "name": "LG G8",
       "date": "2019. 2",
       "display": {
         "size": "6.1",
@@ -905,7 +905,7 @@
     },
     {
       "id": "v40",
-      "name": "V40",
+      "name": "LG V40",
       "date": "2018. 10",
       "display": {
         "size": "6.4",
@@ -934,7 +934,7 @@
     },
     {
       "id": "v30original",
-      "name": "V30(O)",
+      "name": "LG V30(O)",
       "date": "2017. 8",
       "display": {
         "size": "6.0",
@@ -962,7 +962,7 @@
     },
     {
       "id": "v30signature",
-      "name": "V30 Signature",
+      "name": "LG V30 Signature",
       "date": "2017. 8",
       "display": {
         "size": "6.0",
