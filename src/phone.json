@@ -843,5 +843,150 @@
         "back": ["12MP(OIS 지원)"]
       }
     }
+  ],
+  "lg": [
+    {
+      "id": "lgv50",
+      "name": "LG V50 ThinQ",
+      "date": "2019. 02",
+      "display": {
+        "size": "6.4",
+        "resolution": "3120 x 1440",
+        "type": "OLED FullVision",
+        "ppi": "539"
+      },
+      "cpu": "퀄컴 스냅드래곤 855 SM8150",
+      "ram": "6 GB LPDDR4X SDRAM",
+      "size": "76.1 x 159.2 x 8.3 mm",
+      "weight": "183",
+      "battery": "4000",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 9",
+      "color": ["astro black"],
+      "memory": [128, "외장 슬롯 지원"],
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["12MP"],
+        "back": [
+          "기본: 12MP(OIS 지원)(위상차 검출 AF)",
+          "망원: 12MP",
+          "광각: 16MP"
+        ]
+      }
+    },
+    {
+      "id": "g8",
+      "name": "G8",
+      "date": "2019. 2",
+      "display": {
+        "size": "6.1",
+        "resolution": "3120 x 1440",
+        "type": "OLED FullVision",
+        "ppi": "564"
+      },
+      "cpu": "퀄컴 스냅드래곤 855 SM8150",
+      "ram": "6 GB LPDDR4X SDRAM",
+      "size": "75.4 x 151.7 x 7.6 mm",
+      "weight": "167",
+      "battery": "3500",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 9",
+      "color": ["new aurora black", "new moroccan blue", "carmine red", "gradient red"],
+      "memory": [128, "외장 슬롯 지원"],
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["8MP"],
+        "back": [
+          "기본: 12MP(OIS 지원)(위상차 검출 AF)",
+          "망원: 12MP",
+          "광각: 16MP"
+        ]
+      }
+    },
+    {
+      "id": "v40",
+      "name": "V40",
+      "date": "2018. 10",
+      "display": {
+        "size": "6.4",
+        "resolution": "3120 x 1440",
+        "type": "OLED FullVision",
+        "ppi": "538"
+      },
+      "cpu": "퀄컴 스냅드래곤 845 SDM845",
+      "ram": "6 GB LPDDR4X SDRAM",
+      "size": "75.8 x 158.7 x 7.7 mm",
+      "weight": "169",
+      "battery": "3300",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 8.1",
+      "color": ["new platinum gray", "new moroccan blue", "carmine red"],
+      "memory": [128, "외장 슬롯 지원"],
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["12MP"],
+        "back": [
+          "기본: 12MP(OIS 지원)(위상차 검출 AF)",
+          "망원: 12MP",
+          "광각: 16MP"
+        ]
+      }
+    },
+    {
+      "id": "v30original",
+      "name": "V30(O)",
+      "date": "2017. 8",
+      "display": {
+        "size": "6.0",
+        "resolution": "2880 x 1440",
+        "type": "OLED FullVision",
+        "ppi": "537"
+      },
+      "cpu": "퀄컴 스냅드래곤 835 MSM8998",
+      "ram": "4 GB LPDDR4X SDRAM",
+      "size": "75.4 x 151.7 x 7.3 mm",
+      "weight": "158",
+      "battery": "3300",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 7.1",
+      "color": ["aurora black", "moroccan blue", "cloud silver", "lavender violet", "raspberry rose"],
+      "memory": [64, 128, "외장 슬롯 지원"],
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["5MP"],
+        "back": [
+          "기본: 16MP(OIS 지원)(위상차 검출 AF)",
+          "광각: 13MP"
+        ]
+      }
+    },
+    {
+      "id": "v30signature",
+      "name": "V30 Signature",
+      "date": "2017. 8",
+      "display": {
+        "size": "6.0",
+        "resolution": "2880 x 1440",
+        "type": "OLED FullVision",
+        "ppi": "537"
+      },
+      "cpu": "퀄컴 스냅드래곤 835 MSM8998",
+      "ram": "6 GB LPDDR4X SDRAM",
+      "size": "75.4 x 151.7 x 7.6 mm",
+      "weight": "189",
+      "battery": "3300",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 7.1",
+      "color": ["black", "white"],
+      "memory": [64, 128, "외장 슬롯 지원"],
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["5MP"],
+        "back": [
+          "기본: 16MP(OIS 지원)(위상차 검출 AF)",
+          "광각: 13MP"
+        ]
+      }
+    }
   ]
 }
