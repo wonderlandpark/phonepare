@@ -230,9 +230,9 @@ export default {
 </script>
 
 <style scoped>
-@media screen and (max-width: 1200px){
-  three {
-    display: none;
+  @media screen and (max-width: 1200px){
+    third {
+      display: none !important;
+    }
   }
-}
 </style>

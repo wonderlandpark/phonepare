@@ -270,7 +270,7 @@ img {
   height: 444px;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1200px) {
   img {
     width: 150px;
     height: 200px;
