@@ -1,6 +1,33 @@
 {
   "apple": [
     {
+      "id": "iphonese2",
+      "name": "iPhone SE2",
+      "date": "2020. 04",
+      "display": {
+        "size": "4.7",
+        "resolution": "1334 x 750",
+        "type": "Retina HD Display",
+        "ppi": "326"
+      },
+      "cpu": "Apple A13 Bionic APL1W85 SoC",
+      "ram": "3 GB LPDDR- SDRAM",
+      "size": "67.3 x 138.4 x 7.3 mm",
+      "weight": "148",
+      "battery": "1821",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "iOS 13.4",
+      "color": ["black", "silver", "productred"],
+      "memory": [64, 128, 256],
+      "waterproof": "IP67",
+      "camera": {
+        "front": ["7MP"],
+        "back": [
+          "기본: 12MP",
+        ]
+      }
+    },
+    {
       "id": "iphone11promax",
       "name": "iPhone 11 Pro Max",
       "date": "2019. 09",
