@@ -11,6 +11,10 @@
         ><i class="icon github" />Github</a
       >
     </h4>
+    <div class="ui divider"></div>
+    <img src="/kwc.png" width="100"/><br/>
+    해당 웹페이지는 <a href="http://www.21kwc.com/">KWC</a>에 출품작입니다!
+    <br/>
   </div>
 </template>
 
