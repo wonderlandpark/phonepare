@@ -50,18 +50,15 @@ export default {
       options: [
         {
           text: "애플",
-          value: "apple",
-          icon: 'apple'
+          value: "apple"
         },
         {
           text: "삼성전자",
-          value: "samsung",
-          image: { src: "/icon/samsung.jpg"}
+          value: "samsung"
         },
         {
           text: "LG전자",
-          value: "lg",
-          image: { src: "/icon/lg.jpg"}
+          value: "lg"
         }
       ]
     };

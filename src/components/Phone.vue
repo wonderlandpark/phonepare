@@ -9,7 +9,7 @@
       :key="color"
       class="ui label"
       :class="color"
-    >
+    > 
       {{ a >= 768 ? colors.names[color] : "" }}
     </a>
     <!-- <li v-for="item in phone.color">{{ item }}</li> -->
