@@ -1,7 +1,8 @@
 <template>
+  <div>
+     <img :src="phone.img ? phone.img : '/phones/NotSelected.jpg'" />
   <div class="ui center aligned container">
     <br />
-    <img :src="phone.img ? phone.img : '/phones/NotSelected.jpg'" />
     <h1>{{ phone.name }}</h1>
     <h3>색상</h3>
     <a
@@ -14,6 +15,7 @@
     </a>
     <!-- <li v-for="item in phone.color">{{ item }}</li> -->
     <div class="ui divider" />
+  </div>
   </div>
 </template>
 
