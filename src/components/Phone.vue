@@ -1,21 +1,21 @@
 <template>
   <div>
+      <br />
      <img :src="phone.img ? phone.img : '/phones/NotSelected.jpg'" />
-  <div class="ui center aligned container">
-    <br />
-    <h1>{{ phone.name }}</h1>
-    <h3>색상</h3>
-    <a
-      v-for="color in phone.color"
-      :key="color"
-      class="ui label"
-      :class="color"
-    > 
-      {{ a >= 768 ? colors.names[color] : "" }}
-    </a>
-    <!-- <li v-for="item in phone.color">{{ item }}</li> -->
-    <div class="ui divider" />
-  </div>
+    <div class="ui center aligned container">
+      <h1>{{ phone.name }}</h1>
+      <h3>색상</h3>
+      <a
+        v-for="color in phone.color"
+        :key="color"
+        class="ui label"
+        :class="color"
+      > 
+        {{ a >= 768 ? colors.names[color] : "" }}
+      </a>
+      <!-- <li v-for="item in phone.color">{{ item }}</li> -->
+      <div class="ui divider" />
+    </div>
   </div>
 </template>
 
