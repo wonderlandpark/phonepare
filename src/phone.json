@@ -873,6 +873,35 @@
   ],
   "lg": [
     {
+      "id": "velvet",
+      "name": "LG VELVET",
+      "date": "2020. 05",
+      "display": {
+        "size": "6.8",
+        "resolution": "2460 x 1080",
+        "type": "OLED FullVision",
+        "ppi": "395"
+      },
+      "cpu": "퀄컴 스냅드래곤 765 SM7250-AA",
+      "ram": "8 GB LPDDR4X SDRAM",
+      "size": "74.1 x 167.2 x 7.9 mm",
+      "weight": "180",
+      "battery": "4300",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 10",
+      "color": ["aurora white", "aurora gray", "aurora green", "illusion sunset"],
+      "memory": [128, "외장 슬롯 지원"],
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["16MP"],
+        "back": [
+          "기본: 48MP",
+          "광각: 8MP",
+          "심도: 5MP"
+        ]
+      }
+    },
+    {
       "id": "v50",
       "name": "LG V50 ThinQ",
       "date": "2019. 02",

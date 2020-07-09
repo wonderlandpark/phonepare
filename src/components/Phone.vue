@@ -267,6 +267,19 @@ export default {
 .lavenderviolet {
   background: #D8BFD8 !important;
 }
+.aurora.white {
+  background: #cfd4e7 !important;
+}
+.aurora.gray {
+  background: #1f2020 !important;
+  color: white;
+}
+.aurora.green {
+  background: #00545f !important;
+}
+.illusion.sunset {
+  background: linear-gradient(to right, #FFEF00, #E39829, #D46C3D, #C64051, #C64051);
+}
 img {
   width: 350px;
   height: 444px;

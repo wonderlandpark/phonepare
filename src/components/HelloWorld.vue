@@ -31,8 +31,8 @@
             <Selection
               v-on:selected="third"
               v-on:company="fuckingthird"
-              phone="galaxys20plus"
-              company="samsung"
+              phone="velvet"
+              company="lg"
             />
             <Phone :id="three" :company="threec" />
           </div>
