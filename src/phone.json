@@ -1,6 +1,114 @@
 {
   "apple": [
     {
+      "id": "iphone12promax",
+      "name": "iPhone 12 Pro Max",
+      "date": "2020. 10",
+      "display": {
+        "size": "6.7",
+        "resolution": "2778 x 1284",
+        "type": "Super Retina XDR Display",
+        "ppi": "458"
+      },
+      "cpu": "Apple A14 Bionic (T8101) APL1W01 SoC",
+      "ram": "6 GB LPDDR4X- SDRAM",
+      "size": "78.1 x 160.8 x 7.4 mm",
+      "weight": "226",
+      "battery": "3687",
+      "charge": "유선, 무선(고속, 일반), MagSafe",
+      "os": "iOS 14",
+      "color": ["graphite", "silver", "gold", "pacificblue"],
+      "memory": [128, 256, 512],
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["12MP TrueDepth (F/2.2)"],
+        "back": [
+          "광각: 12MP (F/1.6, Sensor-Shift)", "망원: 12MP (F/2.2)", "초광각: 12MP (F/2.4)"
+        ]
+      }
+    },
+    {
+      "id": "iphone12pro",
+      "name": "iPhone 12 Pro",
+      "date": "2020. 10",
+      "display": {
+        "size": "6.1",
+        "resolution": "2532 x 1170",
+        "type": "Super Retina XDR Display",
+        "ppi": "460"
+      },
+      "cpu": "Apple A14 Bionic (T8101) APL1W01 SoC",
+      "ram": "6 GB LPDDR4X- SDRAM",
+      "size": "71.5 x 146.7 x 7.4 mm",
+      "weight": "187",
+      "battery": "2815",
+      "charge": "유선, 무선(고속, 일반), MagSafe",
+      "os": "iOS 14",
+      "color": ["graphite", "silver", "gold", "pacificblue"],
+      "memory": [128, 256, 512],
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["12MP"],
+        "back": [
+          "광각: 12MP", "망원: 12MP", "초광각: 12MP"
+        ]
+      }
+    },
+    {
+      "id": "iphone12mini",
+      "name": "iPhone 12 mini",
+      "date": "2020. 10",
+      "display": {
+        "size": "5.4",
+        "resolution": "2340 x 1080",
+        "type": "Super Retina XDR Display",
+        "ppi": "476"
+      },
+      "cpu": "Apple A14 Bionic (T8101) APL1W01 SoC",
+      "ram": "4 GB LPDDR4X- SDRAM",
+      "size": "64.2 x 131.5 x 7.4 mm",
+      "weight": "133",
+      "battery": "2227",
+      "charge": "유선, 무선(고속, 일반), MagSafe",
+      "os": "iOS 14",
+      "color": ["black", "white", "productred", "green", "blue"],
+      "memory": [64, 128, 256],
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["12MP"],
+        "back": [
+          "기본: 12MP", "광각: 12MP"
+        ]
+      }
+    },
+    {
+      "id": "iphone12",
+      "name": "iPhone 12",
+      "date": "2020. 10",
+      "display": {
+        "size": "6.1",
+        "resolution": "2533 x 1170",
+        "type": "Super Retina XDR Display",
+        "ppi": "460"
+      },
+      "cpu": "Apple A14 Bionic (T8101) APL1W01 SoC",
+      "ram": "4 GB LPDDR4X- SDRAM",
+      "size": "71.5 x 146.7 x 7.4 mm",
+      "weight": "162",
+      "battery": "2815",
+      "charge": "유선, 무선(고속, 일반), MagSafe",
+      "os": "iOS 14",
+      "color": ["black", "white", "productred", "green", "blue"],
+      "memory": [64, 128, 256],
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["12MP"],
+        "back": [
+          "기본: 12MP", "광각: 12MP"
+        ]
+      }
+    },
+    {
       "id": "iphonese2",
       "name": "iPhone SE2",
       "date": "2020. 04",
