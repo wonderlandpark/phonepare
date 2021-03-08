@@ -71,7 +71,7 @@
       "battery": "2227",
       "charge": "유선, 무선(고속, 일반), MagSafe",
       "os": "iOS 14",
-      "color": ["apple black", "apple white", "productred", "apple green", "apple blue"],
+      "color": ["black", "white", "productred", "applegreen", "apple blue"],
       "memory": [64, 128, 256],
       "waterproof": "IP68",
       "camera": {
@@ -98,7 +98,7 @@
       "battery": "2815",
       "charge": "유선, 무선(고속, 일반), MagSafe",
       "os": "iOS 14",
-      "color": ["apple black", "apple white", "apple productred", "apple green", "apple blue"],
+      "color": ["black", "white", "productred", "applegreen", "apple blue"],
       "memory": [64, 128, 256],
       "waterproof": "IP68",
       "camera": {
