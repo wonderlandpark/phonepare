@@ -577,6 +577,68 @@
   ],
   "samsung": [
     {
+      "id": "Z Flip",
+      "name": "Galaxy Z Flip",
+      "date": "2020.02",
+      "display": {
+        "size": "6.7",
+        "resolution": "2636 x 1080",
+        "type": "Infinity-O Flex",
+        "ppi": "425"
+      },
+      "cpu": "퀄컴 스냅드래곤 865+ SM8250-AB",
+      "ram": "8 GB LPDDR5 SDRAM",
+      "size": "73.6 x 167.3 x 7.2",
+      "weight": "183",
+      "battery": "3300",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 10",
+      "color": [
+        "mysticgrey",
+        "mysticbronze",
+        "mysticwhite"
+      ],
+      "memory": [256],
+      "waterproof": "미지원",
+      "camera": {
+        "front": ["40MP"],
+        "back": [
+          "기본: 12.0MP(OIS 지원)"
+        ]
+      }
+    },
+    {
+      "id": "Z Flip",
+      "name": "Galaxy Z Flip",
+      "date": "2020.02",
+      "display": {
+        "size": "6.7",
+        "resolution": "2636 x 1080",
+        "type": "Infinity-O Flex",
+        "ppi": "425"
+      },
+      "cpu": "퀄컴 스냅드래곤 855+ SM8150-AC",
+      "ram": "8 GB LPDDR5 SDRAM",
+      "size": "73.6 x 167.9 x 6.9",
+      "weight": "183",
+      "battery": "3300",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 10",
+      "color": [
+        "mirrorblack",
+        "mirrorpurple",
+        "mirrorgold"
+      ],
+      "memory": [256],
+      "waterproof": "미지원",
+      "camera": {
+        "front": ["40MP"],
+        "back": [
+          "기본: 108MP(OIS 지원)"
+        ]
+      }
+    },
+    {
       "id": "galaxys20ultra",
       "name": "Galaxy S20 Ultra 5G",
       "date": "2020.02",
