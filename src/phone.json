@@ -577,6 +577,37 @@
   ],
   "samsung": [
     {
+      "id": "fold5g",
+      "name": "Galaxy Fold 5G",
+      "date": "2019.02",
+      "display": {
+        "size": "7.3",
+        "resolution": "2152 x 1536",
+        "type": "Infinity Flex Display",
+        "ppi": "362"
+      },
+      "cpu": "퀄컴 스냅드래곤 855 SM8150",
+      "ram": "12 GB LPDDR4X SDRAM",
+      "size": "117.9 x 160.9 x 6.9",
+      "weight": "276",
+      "battery": "4235",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 9",
+      "color": [
+        "cosmosblack",
+        "spacesilver"
+      ],
+      "memory": [512],
+      "waterproof": "미지원",
+      "camera": {
+        "front": ["10.0MP"],
+        "back": [
+          "기본: 12.0MP(OIS 지원)",
+          "망원: 12.0MP(OIS 지원)"
+        ]
+      }
+    },
+    {
       "id": "zfilp5g",
       "name": "Galaxy Z Flip 5G",
       "date": "2020.07",
