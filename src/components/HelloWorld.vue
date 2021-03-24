@@ -13,7 +13,7 @@
             <Selection
               v-on:selected="first"
               v-on:company="fuckingfirst"
-              phone="galaxys20ultra"
+              phone="galaxys21ultra"
               company="samsung"
             />
             <Phone :id="one" :company="onec" />
@@ -22,7 +22,7 @@
             <Selection
               v-on:selected="second"
               v-on:company="fuckingsecond"
-              phone="iphone12"
+              phone="iphone12promax"
               company="apple"
             />
             <Phone :id="two" :company="twoc" />
