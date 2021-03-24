@@ -1,6 +1,66 @@
 {
   "apple": [
     {
+      "id": "iphone12promax",
+      "name": "iPhone 12 Pro Max",
+      "date": "2020. 10",
+      "display": {
+        "size": "6.7",
+        "resolution": "2778 x 1284",
+        "type": "Super Retina XDR",
+        "ppi": "458"
+      },
+      "cpu": "Apple A14 Bionic APL1W01 SoC",
+      "ram": "6 GB LPDDR4X SDRAM",
+      "size": "71.5 x 146.7 x 7.4",
+      "weight": "226",
+      "battery": "3687",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "iOS 14.0",
+      "color": [
+        "graphite",
+        "apple silver",
+        "apple gold",
+        "pacific blue"
+      ],
+      "memory": [128, 256, 512],
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["12MP"],
+        "back": ["기본: 12MP(OIS 지원)", "광각: 12MP", "광학 2배줌 지원"]
+      }
+    },
+    {
+      "id": "iphone12pro",
+      "name": "iPhone 12 Pro",
+      "date": "2020. 10",
+      "display": {
+        "size": "6.1",
+        "resolution": "2532 x 1170",
+        "type": "Super Retina XDR",
+        "ppi": "460"
+      },
+      "cpu": "Apple A14 Bionic APL1W01 SoC",
+      "ram": "4GB LPDDR4X SDRAM",
+      "size": "71.5 x 146.7 x 7.4",
+      "weight": "162",
+      "battery": "2815",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "iOS 14.1",
+      "color": [
+        "graphite",
+        "apple silver",
+        "apple gold",
+        "pacific blue"
+      ],
+      "memory": [128, 256, 512],
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["12MP"],
+        "back": ["기본: 12MP(OIS 지원)", "광각: 12MP", "광학 2배줌 지원"]
+      }
+    },
+    {
       "id": "iphone12",
       "name": "iPhone 12",
       "date": "2020. 10",
