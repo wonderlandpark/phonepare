@@ -577,9 +577,9 @@
   ],
   "samsung": [
     {
-      "id": "Z Flip",
-      "name": "Galaxy Z Flip",
-      "date": "2020.02",
+      "id": "zfilp5g",
+      "name": "Galaxy Z Flip 5G",
+      "date": "2020.07",
       "display": {
         "size": "6.7",
         "resolution": "2636 x 1080",
@@ -608,7 +608,7 @@
       }
     },
     {
-      "id": "Z Flip",
+      "id": "zfilp",
       "name": "Galaxy Z Flip",
       "date": "2020.02",
       "display": {
