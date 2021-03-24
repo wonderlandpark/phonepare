@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import { getData } from "../getPhone";
+import { getData } from "@/getPhone";
 import colors from "../color";
 export default {
   name: "Phone",

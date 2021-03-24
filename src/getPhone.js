@@ -5,15 +5,14 @@ export function getDropdown(company) {
     console.log([]);
     return [];
   } else {
-    var g = phones[company].map(el => {
+    return phones[company].map(el => {
       return {
         key: el.id,
         value: el.id,
         text: `${el.name} (${el.date} 출시)`,
-        image: { src: `/phones/${el.id}.jpg` }
+        image: {src: `/phones/${el.id}.jpg`}
       };
     });
-    return g;
   }
 }
 
