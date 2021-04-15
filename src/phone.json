@@ -818,7 +818,7 @@
     },
     {
       "id": "galaxyzflip5g",
-      "name": "Galaxy Z Flip 5G 2",
+      "name": "Galaxy Z Flip 5G",
       "date": "2020.07",
       "display": {
         "size": "6.7",
@@ -834,9 +834,9 @@
       "charge": "유선, 무선(고속, 일반)",
       "os": "Android 10",
       "color": [
-        "mysticgrey",
-        "mysticbronze",
-        "mysticwhite"
+        "mirrorblack",
+        "mirrorpurple",
+        "mirrorgold"
       ],
       "memory": [256],
       "waterproof": "미지원",
@@ -849,8 +849,8 @@
       }
     },
     {
-      "id": "zfilp",
-      "name": "Galaxy Z Flip 5G",
+      "id": "galaxyzflip",
+      "name": "Galaxy Z Flip",
       "date": "2020.02",
       "display": {
         "size": "6.7",
@@ -866,9 +866,9 @@
       "charge": "유선, 무선(고속, 일반)",
       "os": "Android 10",
       "color": [
-        "mirrorblack",
-        "mirrorpurple",
-        "mirrorgold"
+        "mysticgrey",
+        "mysticbronze",
+        "mysticwhite"
       ],
       "memory": [256],
       "waterproof": "미지원",
