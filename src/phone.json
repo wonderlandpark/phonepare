@@ -27,7 +27,7 @@
       "waterproof": "IP68",
       "camera": {
         "front": ["12MP"],
-        "back": ["기본: 12MP(OIS 지원)", "광각: 12MP", "광학 2배줌 지원"]
+        "back": ["기본: 12MP(OIS 지원)", "광각: 12MP", "초광각 지원", "광학 2배줌 지원"]
       }
     },
     {
@@ -817,7 +817,7 @@
       }
     },
     {
-      "id": "galaxyzfilp5g",
+      "id": "galaxyzflip5g",
       "name": "Galaxy Z Flip 5G 2",
       "date": "2020.07",
       "display": {
