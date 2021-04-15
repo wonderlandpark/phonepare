@@ -10,7 +10,7 @@ export function getDropdown(company) {
         key: el.id,
         value: el.id,
         text: `${el.name} (${el.date} 출시)`,
-        image: {src: `/phones/${el.id}.jpg`}
+        image: { src: `/phones/${el.id}.jpg` }
       };
     });
   }
