@@ -5,7 +5,7 @@ export function getDropdown(company) {
     console.log([]);
     return [];
   } else {
-    var g = phones[company].map(el => {
+    return phones[company].map(el => {
       return {
         key: el.id,
         value: el.id,
@@ -13,7 +13,6 @@ export function getDropdown(company) {
         image: { src: `/phones/${el.id}.jpg` }
       };
     });
-    return g;
   }
 }
 

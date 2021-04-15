@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import { getData } from "../getPhone";
+import { getData } from "@/getPhone";
 import colors from "../color";
 export default {
   name: "Phone",
@@ -53,6 +53,104 @@ export default {
 </script>
 
 <style scoped>
+.phantomsilver {
+  background: #F0F0FA !important;
+}
+.phantomblack {
+  background: #404040 !important;
+  color: #f9f9f9 !important;
+}
+.phantomtitanium {
+  background: #5F5F5F !important;
+  color: #f9f9f9 !important;
+}
+.phantomnavy {
+  background: #3A414B !important;
+  color: #f9f9f9 !important;
+}
+.phantombrown {
+  background: #4C3D36 !important;
+  color: #f9f9f9 !important;
+}
+.phantomviolet {
+  background: #B3B2D1 !important;
+}
+.phantompink {
+  background: #FCD5CE !important;
+}
+.phantomgold {
+  background: #CBA498 !important;
+}
+.phantomred {
+  background: #C62D37 !important;
+}
+.phantomwhite {
+  background: #F5F5F5 !important;
+}
+.phantomgrey {
+  background: #626367 !important;
+  color: #f9f9f9 !important;
+}
+.cloudred {
+  background: #B63339 !important;
+  color: #f9f9f9 !important;
+}
+.cloudorange {
+  background: #FAC69E !important;
+}
+.cloudlavender {
+  background: #D0B7CC !important;
+
+}
+.cloudnavy {
+  background: #313D53 !important;
+  color: #f9f9f9;
+}
+.cloudwhite {
+  background: #F0F0F0 !important;
+}
+.cloudmint {
+  background: #A7C2BB !important;
+}
+.mysticblack {
+  background: #000000 !important;
+  color: #f9f9f9 !important;
+}
+.mysticwhite {
+  background: #FFFFFF !important;
+}
+.mysticgrey {
+  background: #505050 !important;
+  color: #f9f9f9 !important;
+}
+.mysticgreen {
+  background: #BDECC8 !important;
+}
+.cosmosblack {
+  background: #000000 !important;
+  color: #f9f9f9 !important;
+}
+.spacesilver {
+  background: #D0D8DF !important;
+}
+.mirrorblack {
+  background: #000000 !important;
+  color: #f9f9f9 !important;
+}
+.mirrorpurple {
+  background: #A364C7 !important;
+  color: #f9f9f9 !important;
+}
+.mirrorgold {
+  background: #ECE095 !important;
+}
+.graphite {
+  background: #605E5A !important;
+  color: #f9f9f9 !important;
+}
+.mysticbronze {
+  background: #DCB7AD !important;
+}
 .spacegray {
   background: #535150 !important;
   color: #f9f9f9 !important;

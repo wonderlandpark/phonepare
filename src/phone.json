@@ -1,6 +1,128 @@
 {
   "apple": [
     {
+      "id": "iphone12promax",
+      "name": "iPhone 12 Pro Max",
+      "date": "2020. 10",
+      "display": {
+        "size": "6.7",
+        "resolution": "2778 x 1284",
+        "type": "Super Retina XDR",
+        "ppi": "458"
+      },
+      "cpu": "Apple A14 Bionic APL1W01 SoC",
+      "ram": "6 GB LPDDR4X SDRAM",
+      "size": "71.5 x 146.7 x 7.4",
+      "weight": "226",
+      "battery": "3687",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "iOS 14.0",
+      "color": [
+        "graphite",
+        "apple silver",
+        "apple gold",
+        "pacific blue"
+      ],
+      "memory": [128, 256, 512],
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["12MP"],
+        "back": ["기본: 12MP(OIS 지원)", "광각: 12MP", "초광각 지원", "광학 2배줌 지원"]
+      }
+    },
+    {
+      "id": "iphone12pro",
+      "name": "iPhone 12 Pro",
+      "date": "2020. 10",
+      "display": {
+        "size": "6.1",
+        "resolution": "2532 x 1170",
+        "type": "Super Retina XDR",
+        "ppi": "460"
+      },
+      "cpu": "Apple A14 Bionic APL1W01 SoC",
+      "ram": "4GB LPDDR4X SDRAM",
+      "size": "71.5 x 146.7 x 7.4",
+      "weight": "162",
+      "battery": "2815",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "iOS 14.1",
+      "color": [
+        "graphite",
+        "apple silver",
+        "apple gold",
+        "pacific blue"
+      ],
+      "memory": [128, 256, 512],
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["12MP"],
+        "back": ["기본: 12MP(OIS 지원)", "광각: 12MP", "광학 2배줌 지원"]
+      }
+    },
+    {
+      "id": "iphone12",
+      "name": "iPhone 12",
+      "date": "2020. 10",
+      "display": {
+        "size": "6.1",
+        "resolution": "2532 x 1170",
+        "type": "Super Retina XDR",
+        "ppi": "460"
+      },
+      "cpu": "Apple A14 Bionic APL1W01 SoC",
+      "ram": "4GB LPDDR4X SDRAM",
+      "size": "71.5 x 146.7 x 7.4",
+      "weight": "162",
+      "battery": "2815",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "iOS 14.1",
+      "color": [
+        "black",
+        "apple silver",
+        "productred",
+        "applegreen",
+        "appleblue"
+      ],
+      "memory": [64, 128, 256],
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["12MP"],
+        "back": ["기본: 12MP(OIS 지원)", "광각: 12MP", "광학 2배줌 지원"]
+      }
+    },
+    {
+      "id": "iphone12mini",
+      "name": "iPhone 12 mini",
+      "date": "2020. 10",
+      "display": {
+        "size": "5.4",
+        "resolution": "2340 x 1080",
+        "type": "Super Retina XDR",
+        "ppi": "476"
+      },
+      "cpu": "Apple A14 Bionic APL1W01 SoC",
+      "ram": "4GB LPDDR4X SDRAM",
+      "size": "64.2 x 131.5 x 7.4",
+      "weight": "133",
+      "battery": "2227",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "iOS 14.1",
+      "color": [
+        "black",
+        "apple silver",
+        "productred",
+        "applegreen",
+        "appleblue"
+      ],
+      "memory": [64, 128, 256],
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["12MP"],
+        "back": ["기본: 12MP(OIS 지원)", "광각: 12MP", "광학 2배줌 지원"]
+      }
+    },
+    {
       "id": "iphonese2",
       "name": "iPhone SE2",
       "date": "2020. 04",
@@ -454,6 +576,309 @@
     }
   ],
   "samsung": [
+    {
+      "id": "galaxys21ultra",
+      "name": "Galaxy S21 Ultra 5G",
+      "date": "2021.01",
+      "display": {
+        "size": "6.8",
+        "resolution": "2400 x 1080",
+        "type": "Infinity-O Display",
+        "ppi": "421"
+      },
+      "cpu": "삼성 엑시노스 10 Series (2100) SoC",
+      "ram": "12 GB LPDDR5 SDRAM or 16 GB LPDDR5 SDRAM",
+      "size": "75.6 × 165.1 × 8.9",
+      "weight": "227",
+      "battery": "5000",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 11",
+      "color": [
+        "phantomsilver",
+        "phantomblack",
+        "phantomtitanium",
+        "phantomnavy",
+        "phantombrown"
+      ],
+      "memory": [256, 512],
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["40.0MP"],
+        "back": [
+          "기본: 108.0MP(OIS 지원)",
+          "3배 망원: 10.0MP(OIS 지원)",
+          "10배 폴디드 망원: 10.0MP(OIS 지원)",
+          "초광각: 12.0MP"
+        ]
+      }
+    },
+    {
+      "id": "galaxys21+",
+      "name": "Galaxy S21+ 5G",
+      "date": "2021.01",
+      "display": {
+        "size": "6.7",
+        "resolution": "2400 x 1080",
+        "type": "Infinity-O Display",
+        "ppi": "394"
+      },
+      "cpu": "삼성 엑시노스 10 Series (2100) SoC",
+      "ram": "8 GB LPDDR5 SDRAM",
+      "size": "75.6 × 161.4 × 7.8",
+      "weight": "200",
+      "battery": "4800",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 11",
+      "color": [
+        "phantomviolet",
+        "phantompink",
+        "phantomsilver",
+        "phantomblack",
+        "phantomgold",
+        "phantomred"
+      ],
+      "memory": [256],
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["10.0MP"],
+        "back": [
+          "기본: 12.0MP(OIS 지원)",
+          "망원: 64.0MP(OIS 지원)",
+          "광각: 12.0MP"
+        ]
+      }
+    },
+    {
+      "id": "galaxys21",
+      "name": "Galaxy S21 5G",
+      "date": "2021.01",
+      "display": {
+        "size": "6.2",
+        "resolution": "2400 x 1080",
+        "type": "Infinity-O Display",
+        "ppi": "421"
+      },
+      "cpu": "삼성 엑시노스 10 Series (2100) SoC",
+      "ram": "8 GB LPDDR5 SDRAM",
+      "size": "74.5 x 159.8 x 8.4",
+      "weight": "169",
+      "battery": "4000",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 11",
+      "color": [
+        "phantomviolet",
+        "phantompink",
+        "phantomwhite",
+        "phantomgrey"
+      ],
+      "memory": [256],
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["10.0MP"],
+        "back": [
+          "기본: 12.0MP(OIS 지원)",
+          "망원: 64.0MP(OIS 지원)",
+          "광각: 12.0MP"
+        ]
+      }
+    },
+    {
+      "id": "galaxys20fe",
+      "name": "Galaxy S20 FE",
+      "date": "2020.09",
+      "display": {
+        "size": "6.5",
+        "resolution": "2400 x 1080",
+        "type": "Infinity-O Display",
+        "ppi": "407"
+      },
+      "cpu": "퀄컴 스냅드래곤 865 SM8250",
+      "ram": "6 GB LPDDR5 SDRAM",
+      "size": "74.5 x 159.8 x 8.4",
+      "weight": "190",
+      "battery": "4500",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 10",
+      "color": [
+        "cloudred",
+        "cloudorange",
+        "cloudlavender",
+        "cloudnavy",
+        "cloudwhite",
+        "cloudmint"
+      ],
+      "memory": [128],
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["32.0MP"],
+        "back": [
+          "기본: 12.0MP(OIS 지원)",
+          "망원: 8.0MP(OIS 지원)",
+          "광각: 12.0MP"
+        ]
+      }
+    },
+    {
+      "id": "galaxynote205gultra",
+      "name": "Galaxy Note20 Ultra",
+      "date": "2020.08",
+      "display": {
+        "size": "6.9",
+        "resolution": "3088 x 1440",
+        "type": "Infinity-O Display",
+        "ppi": "496"
+      },
+      "cpu": "퀄컴 스냅드래곤 865+ SM8250",
+      "ram": "12 GB LPDDR5 SDRAM",
+      "size": "77.2 × 164.8 × 8.1",
+      "weight": "208",
+      "battery": "4500",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 10",
+      "color": [
+        "mysticblack",
+        "mysticbronze",
+        "mysticwhite"
+      ],
+      "memory": [256],
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["10.0MP"],
+        "back": [
+          "기본: 108.0MP(OIS 지원)",
+          "망원: 12.0MP(OIS 지원)",
+          "광각: 12.0MP"
+        ]
+      }
+    },
+    {
+      "id": "note205g",
+      "name": "Galaxy Note20 5G",
+      "date": "2020.02",
+      "display": {
+        "size": "6.7",
+        "resolution": "2400 x 1080",
+        "type": "Infinity-O Display",
+        "ppi": "393"
+      },
+      "cpu": "퀄컴 스냅드래곤 865+ SM8250",
+      "ram": "8 GB LPDDR5 SDRAM",
+      "size": "75.2 × 161.6 × 8.3",
+      "weight": "192",
+      "battery": "4300",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 10",
+      "color": [
+        "mysticgrey",
+        "mysticgreen",
+        "mysticbronze"
+      ],
+      "memory": [256],
+      "waterproof": "IP68",
+      "camera": {
+        "front": ["10.0MP"],
+        "back": [
+          "기본: 12.0MP(OIS 지원)",
+          "망원: 64.0MP(OIS 지원)",
+          "광각: 12.0MP"
+        ]
+      }
+    },
+    {
+      "id": "fold5g2",
+      "name": "Galaxy Fold 5G 2",
+      "date": "2020.09",
+      "display": {
+        "size": "7.3",
+        "resolution": "2208 x 1768",
+        "type": "Infinity-O Flex Display",
+        "ppi": "372"
+      },
+      "cpu": "퀄컴 스냅드래곤 865+ SM8250-AB",
+      "ram": "12 GB LPDDR5 SDRAM",
+      "size": "128.2 x 159.2 x 6.0",
+      "weight": "282",
+      "battery": "4500",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 10",
+      "color": [
+        "mysticbronze",
+        "mysticblack"
+      ],
+      "memory": [256],
+      "waterproof": "미지원",
+      "camera": {
+        "front": ["10.0MP"],
+        "back": [
+          "기본: 12.0MP(OIS 지원)",
+          "망원: 12.0MP(OIS 지원)",
+          "광각: 12.0MP"
+        ]
+      }
+    },
+    {
+      "id": "galaxyzflip5g",
+      "name": "Galaxy Z Flip 5G",
+      "date": "2020.07",
+      "display": {
+        "size": "6.7",
+        "resolution": "2636 x 1080",
+        "type": "Infinity-O Flex",
+        "ppi": "425"
+      },
+      "cpu": "퀄컴 스냅드래곤 865+ SM8250-AB",
+      "ram": "8 GB LPDDR5 SDRAM",
+      "size": "73.6 x 167.3 x 7.2",
+      "weight": "183",
+      "battery": "3300",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 10",
+      "color": [
+        "mirrorblack",
+        "mirrorpurple",
+        "mirrorgold"
+      ],
+      "memory": [256],
+      "waterproof": "미지원",
+      "camera": {
+        "front": ["40MP"],
+        "back": [
+          "기본: 12.0MP(OIS 지원)",
+          "광각: 12.0MP"
+        ]
+      }
+    },
+    {
+      "id": "galaxyzflip",
+      "name": "Galaxy Z Flip",
+      "date": "2020.02",
+      "display": {
+        "size": "6.7",
+        "resolution": "2636 x 1080",
+        "type": "Infinity-O Flex",
+        "ppi": "425"
+      },
+      "cpu": "퀄컴 스냅드래곤 855+ SM8150-AC",
+      "ram": "8 GB LPDDR5 SDRAM",
+      "size": "73.6 x 167.9 x 6.9",
+      "weight": "183",
+      "battery": "3300",
+      "charge": "유선, 무선(고속, 일반)",
+      "os": "Android 10",
+      "color": [
+        "mysticgrey",
+        "mysticbronze",
+        "mysticwhite"
+      ],
+      "memory": [256],
+      "waterproof": "미지원",
+      "camera": {
+        "front": ["40MP"],
+        "back": [
+          "기본: 108MP(OIS 지원)"
+        ]
+      }
+    },
     {
       "id": "galaxys20ultra",
       "name": "Galaxy S20 Ultra 5G",
