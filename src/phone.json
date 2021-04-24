@@ -82,7 +82,8 @@
         "apple silver",
         "productred",
         "applegreen",
-        "appleblue"
+        "appleblue",
+        "applepurple"
       ],
       "memory": [64, 128, 256],
       "waterproof": "IP68",

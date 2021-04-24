@@ -161,6 +161,9 @@ export default {
 .apple.gold {
   background: #fad7bd !important;
 }
+.applepurple {
+  background: #BBB2E9 !important;
+}
 .midnightgreen {
   background: #4e5851 !important;
   color: #f9f9f9 !important;
