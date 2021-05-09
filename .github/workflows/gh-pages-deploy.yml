@@ -3,25 +3,19 @@ name: Deploy to github pages
 on:
   push:
     branches: [master]
-  pull_request:
-    branches: [master]
-
 jobs:
-  gh-pages-deploy:
-    name: Deploying to gh-pages
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Setup Node.js for use with actions
-        uses: actions/setup-node@v1.1.0
-        with:
-          version: 13.6.0
-      - name: Checkout branch
-        uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2.3.1
 
-      - name: Clean install dependencies
-        run: npm ci
-
-      - name: Run deploy script
+      - name: Build
         run: |
-          git config user.name "wonderlandpark" && git config user.email "wonderbotsupport@naver.com"
-          npm run gh-pages-deploy
+          yarn install
+          yarn build
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.0
+        with:
+          branch: gh-pages
+          folder: dist
