@@ -6,12 +6,10 @@ import Index from './pages/Index'
 const App: FC = () => {
   return <Router>
     <div className='App'>
-      
       <Switch>
         <Route exact path='/' component={Index} />
         <Route path='/compare' component={Compare} />
       </Switch>
-     
     </div>
   </Router>
 }
