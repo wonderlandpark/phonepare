@@ -1,4 +1,4 @@
-import React, { FC, useState, useEffect } from 'react'
+import React, { FC } from 'react'
 import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 import Compare from './pages/Compare'
 import Index from './pages/Index'
