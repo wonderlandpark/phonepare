@@ -1,8 +1,9 @@
 import React, { FC, useEffect, useState } from 'react'
-import { Grid, Flex, Box, Heading, Text, Select, Image } from '@chakra-ui/react'
+import { Flex, Box, Heading, Text, Select, Image } from '@chakra-ui/react'
 import { Phone as PhoneClass, getPhone, Manufacturers, ManufacturersName, Phones } from '@/utils/Phones'
 import type { Manufacturer } from '@/utils/types'
 import ColorLabel from '@/components/ColorLabel'
+import PhoneGrid from '@/components/PhoneGrid'
 
 const Phone: FC<{
   state: string,
@@ -55,11 +56,11 @@ const Compare: FC = () => {
 
   return <Box py={10} textAlign='center'>
     <Heading mb={3}>핸드폰 비교하기</Heading>
-    <Grid templateColumns={{ base: 'repeat(2, 1fr)', lg: 'repeat(3, 1fr)' }} px={{ base: 10, md: 32 }} columnGap={10}>
+    <PhoneGrid>
       <Phone state={first} setState={setFirst} />
       <Phone state={second} setState={setSecond} />
       <Phone state={third} setState={setThird} mobile={false} />
-    </Grid>
+    </PhoneGrid>
   </Box>
 }
 
