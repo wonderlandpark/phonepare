@@ -1,4 +1,4 @@
-import type { Manufacturers } from './Phones'
+import type { Manufacturers } from './phones'
 export type Manufacturer = typeof Manufacturers[number]
 
 export interface PhoneData {
