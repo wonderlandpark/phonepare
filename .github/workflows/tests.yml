@@ -47,4 +47,4 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - name: Build
-        run: tsc && yarn build
+        run: yarn build
