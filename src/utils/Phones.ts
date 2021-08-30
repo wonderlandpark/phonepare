@@ -2,6 +2,7 @@ import PhoneDatas from '@/lib/phones'
 import Colors from '@/lib/colors'
 import type { Color, Manufacturer, PhoneData } from './types'
 
+export type Nullable<T> = T | null
 export const Manufacturers = ['apple', 'samsung', 'lg'] as const
 export const ManufacturersName: Record<Manufacturer, string> = {
   apple: '애플',
@@ -27,10 +28,10 @@ export class Phone {
 
 export const Phones = PhoneDatas.map(el => new Phone(el))
 
-export function getPhone (id: string): Phone | null {
+export function getPhone (id: string): Nullable<Phone> {
   return Phones.find(phone => phone.data.id === id) || null
 }
 
-export function findColor(id: string): Color | null {
+export function findColor(id: string): Nullable<Color> {
   return Colors.find(color => color.id === id) || null
 }
