@@ -10,14 +10,14 @@ import Size from '@/components/Size'
 import Battery from '@/components/Battery'
 import Others from '@/components/Others'
 
-const Compare: FC = () => {
+const Compare: FC<{ asComponent?: boolean }> = ({ asComponent=false }) => {
   return <Box py={10} textAlign='center'>
-    <Heading mb={3}>핸드폰 비교하기</Heading>
+    { !asComponent && <Heading mb={3}>핸드폰 비교하기</Heading>}
     <Box px={{ base: 10, md: 32 }}>
       <PhoneGrid>
-        <Phone index={0} />
-        <Phone index={1} />
-        <Phone index={2} mobile />
+        <Phone index={0} select={!asComponent} />
+        <Phone index={1} select={!asComponent} />
+        <Phone index={2} mobile select={!asComponent} />
       </PhoneGrid>
     </Box>
     <Box px={{ base: 10, md: 32 }} py={20} textAlign='left'>
