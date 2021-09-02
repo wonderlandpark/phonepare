@@ -3,6 +3,7 @@ export type Manufacturer = typeof Manufacturers[number]
 
 export interface PhoneData {
   id: string
+  tags?: string[]
   manufacturer: Manufacturer
   name: string
   releaseDate: string
@@ -35,4 +36,17 @@ export interface Color {
     background: string
     color?: string
   }
+}
+
+export interface Question {
+  id: string
+  question: string
+  options: QuestionOption[]
+
+}
+
+export interface QuestionOption {
+  label: string
+  subLabel?: string
+  value: boolean
 }
