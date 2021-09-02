@@ -1,10 +1,8 @@
 import React, { FC } from 'react'
 import { Link } from 'react-router-dom'
-import { Text, Box, BoxProps, Flex, Grid, Heading } from '@chakra-ui/react'
+import { Text, Box, Flex, Grid, Heading } from '@chakra-ui/react'
 
-const Card: FC<BoxProps> = (props) => {
-  return <Box textAlign='left' p={10} w={{ base: '100%', md: '400px' }} bg='gray.100' rounded='xl' {...props} _hover={{ bg: 'gray.200', cursor: 'pointer' }} />
-}
+import Card from '@/components/Card'
 
 const Index: FC = () => {
   return <Box minHeight='100vh'>
