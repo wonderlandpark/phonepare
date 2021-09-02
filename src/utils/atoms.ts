@@ -13,3 +13,13 @@ export const selectedPhonesDataState = selector({
     return phones.map(phone => getPhone(phone))
   }
 })
+
+export const questionIndexState = atom<number>({
+  key: 'questionIndex',
+  default: 0
+})
+
+export const questionTagsState = atom<Record<string, boolean>>({
+  key: 'questionTags',
+  default: {}
+})
