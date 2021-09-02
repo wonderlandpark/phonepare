@@ -40,7 +40,7 @@ const Questions: Question[] = [
         value: true
       },
       {
-        label: '아니요, 전 배터리가 많이 필요하진 않아요.',
+        label: '아니요, 배터리가 많이 필요하진 않아요.',
         value: false
       }
     ]
