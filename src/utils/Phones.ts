@@ -35,3 +35,16 @@ export function getPhone (id: string): Nullable<Phone> {
 export function findColor(id: string): Nullable<Color> {
   return Colors.find(color => color.id === id) || null
 }
+
+export function getRecommended(tags: Record<string, boolean>): [Phone, Phone, Phone] {
+  return Phones.sort((a, b) => getTagMatchScore(b.data.tags || [], tags) - getTagMatchScore(a.data.tags || [], tags)).slice(0, 3) as [Phone, Phone, Phone]
+}
+
+function getTagMatchScore(tags: string[], requiredTag: Record<string, boolean>): number {
+  return Object.keys(requiredTag).reduce((score, tag) => {
+    if (tags.includes(tag) === requiredTag[tag]) return score++
+    else score--
+    
+    return score
+  }, 0)
+}

@@ -3,6 +3,7 @@ import type { PhoneData } from '@/utils/types'
 const PhoneDatas: PhoneData[] = [
   {
     id: 'iphone12promax',
+    tags: ['apple', 'screen', 'game'],
     manufacturer: 'apple',
     name: 'iPhone 12 Pro Max',
     releaseDate: '2020. 10',
@@ -34,6 +35,7 @@ const PhoneDatas: PhoneData[] = [
   },
   {
     id: 'iphone12pro',
+    tags: ['apple', 'game'],
     manufacturer: 'apple',
     name: 'iPhone 12 Pro',
     releaseDate: '2020. 10',
@@ -65,6 +67,7 @@ const PhoneDatas: PhoneData[] = [
   },
   {
     id: 'iphone12',
+    tags: ['apple', 'game'],
     manufacturer: 'apple',
     name: 'iPhone 12',
     releaseDate: '2020. 10',
@@ -98,6 +101,7 @@ const PhoneDatas: PhoneData[] = [
   },
   {
     id: 'iphone12mini',
+    tags: ['apple'],
     manufacturer: 'apple',
     name: 'iPhone 12 mini',
     releaseDate: '2020. 10',
@@ -130,6 +134,7 @@ const PhoneDatas: PhoneData[] = [
   },
   {
     id: 'iphonese2',
+    tags: ['apple', 'game'],
     manufacturer: 'apple',
     name: 'iPhone SE2',
     releaseDate: '2020. 04',
@@ -158,6 +163,7 @@ const PhoneDatas: PhoneData[] = [
   },
   {
     id: 'iphone11promax',
+    tags: ['apple', 'screen'],
     manufacturer: 'apple',
     name: 'iPhone 11 Pro Max',
     releaseDate: '2019. 09',
@@ -189,6 +195,7 @@ const PhoneDatas: PhoneData[] = [
   },
   {
     id: 'iphone11pro',
+    tags: ['apple'],
     manufacturer: 'apple',
     name: 'iPhone 11 Pro',
     releaseDate: '2019. 09',
@@ -220,6 +227,7 @@ const PhoneDatas: PhoneData[] = [
   },
   {
     id: 'iphone11',
+    tags: ['apple'],
     manufacturer: 'apple',
     name: 'iPhone 11',
     releaseDate: '2019. 09',
@@ -253,6 +261,7 @@ const PhoneDatas: PhoneData[] = [
   },
   {
     id: 'iphonexsmax',
+    tags: ['apple', 'screen'],
     manufacturer: 'apple',
     name: 'iPhone XS Max',
     releaseDate: '2018. 11',
@@ -283,6 +292,7 @@ const PhoneDatas: PhoneData[] = [
   },
   {
     id: 'iphonexs',
+    tags: ['apple'],
     manufacturer: 'apple',
     name: 'iPhone XS',
     releaseDate: '2018. 11',
@@ -313,6 +323,7 @@ const PhoneDatas: PhoneData[] = [
   },
   {
     id: 'iphonexr',
+    tags: ['apple'],
     manufacturer: 'apple',
     name: 'iPhone XR',
     releaseDate: '2018.09',
@@ -346,6 +357,7 @@ const PhoneDatas: PhoneData[] = [
   },
   {
     id: 'iphonex',
+    tags: ['apple'],
     manufacturer: 'apple',
     name: 'iPhone X',
     releaseDate: '2017. 11',
@@ -376,6 +388,7 @@ const PhoneDatas: PhoneData[] = [
   },
   {
     id: 'iphone8plus',
+    tags: ['apple'],
     manufacturer: 'apple',
     name: 'iPhone 8+',
     releaseDate: '2017.09',
@@ -402,6 +415,7 @@ const PhoneDatas: PhoneData[] = [
   },
   {
     id: 'iphone8',
+    tags: ['apple'],
     manufacturer: 'apple',
     name: 'iPhone 8',
     releaseDate: '2017.09',
@@ -428,6 +442,7 @@ const PhoneDatas: PhoneData[] = [
   },
   {
     id: 'iphone7plus',
+    tags: ['apple'],
     manufacturer: 'apple',
     name: 'iPhone 7+',
     releaseDate: '2016.09',
@@ -461,6 +476,7 @@ const PhoneDatas: PhoneData[] = [
   },
   {
     id: 'iphone7',
+    tags: ['apple'],
     manufacturer: 'apple',
     name: 'iPhone 7',
     releaseDate: '2016.09',
@@ -494,6 +510,7 @@ const PhoneDatas: PhoneData[] = [
   },
   {
     id: 'iphone6splus',
+    tags: ['apple'],
     manufacturer: 'apple',
     name: 'iPhone 6s+',
     releaseDate: '2015.09',
@@ -520,6 +537,7 @@ const PhoneDatas: PhoneData[] = [
   },
   {
     id: 'iphone6s',
+    tags: ['apple'],
     manufacturer: 'apple',
     name: 'iPhone 6s',
     releaseDate: '2015.09',
@@ -546,6 +564,7 @@ const PhoneDatas: PhoneData[] = [
   },
   {
     id: 'iphone6plus',
+    tags: ['apple'],
     manufacturer: 'apple',
     name: 'iPhone 6+',
     releaseDate: '2015.09',
@@ -572,6 +591,7 @@ const PhoneDatas: PhoneData[] = [
   },
   {
     id: 'iphone6',
+    tags: ['apple'],
     manufacturer: 'apple',
     name: 'iPhone 6',
     releaseDate: '2015.09',
@@ -598,6 +618,7 @@ const PhoneDatas: PhoneData[] = [
   },
   {
     id: 'galaxys21ultra',
+    tags: ['screen', 'game', 'battery'],
     manufacturer: 'samsung',
     name: 'Galaxy S21 Ultra 5G',
     releaseDate: '2021.01',
@@ -635,6 +656,7 @@ const PhoneDatas: PhoneData[] = [
   },
   {
     id: 'galaxys21+',
+    tags: ['game', 'battery'],
     manufacturer: 'samsung',
     name: 'Galaxy S21+ 5G',
     releaseDate: '2021.01',
@@ -672,6 +694,7 @@ const PhoneDatas: PhoneData[] = [
   },
   {
     id: 'galaxys21',
+    tags: ['game', 'battery'],
     manufacturer: 'samsung',
     name: 'Galaxy S21 5G',
     releaseDate: '2021.01',
@@ -707,6 +730,7 @@ const PhoneDatas: PhoneData[] = [
   },
   {
     id: 'galaxys20fe',
+    tags: ['battery'],
     manufacturer: 'samsung',
     name: 'Galaxy S20 FE',
     releaseDate: '2020.09',
@@ -744,6 +768,7 @@ const PhoneDatas: PhoneData[] = [
   },
   {
     id: 'galaxynote205gultra',
+    tags: ['screen', 'battery'],
     manufacturer: 'samsung',
     name: 'Galaxy Note20 Ultra',
     releaseDate: '2020.08',
@@ -910,6 +935,7 @@ const PhoneDatas: PhoneData[] = [
   },
   {
     id: 'galaxys20ultra',
+    tags: ['screen'],
     manufacturer: 'samsung',
     name: 'Galaxy S20 Ultra 5G',
     releaseDate: '2020.02',
@@ -1379,6 +1405,7 @@ const PhoneDatas: PhoneData[] = [
   },
   {
     id: 'v50',
+    tags: ['battery'],
     manufacturer: 'lg',
     name: 'LG V50 ThinQ',
     releaseDate: '2019. 02',

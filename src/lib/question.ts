@@ -3,7 +3,7 @@ import type { Question } from '@/utils/types'
 const Questions: Question[] = [
   {
     id: 'apple',
-    question: '어떤 OS를 선호하시나요?',
+    question: '어떤 제품을 선호하시나요?',
     options: [
       {
         label: '전 애플 제품들을 선호합니다!',

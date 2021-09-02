@@ -2,6 +2,7 @@ import React, { FC } from 'react'
 import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 import Compare from './pages/Compare'
 import Index from './pages/Index'
+import Recommend from './pages/Recommend'
 
 const App: FC = () => {
   return <Router>
@@ -9,6 +10,7 @@ const App: FC = () => {
       <Switch>
         <Route exact path='/' component={Index} />
         <Route path='/compare' component={Compare} />
+        <Route path='/recommend' component={Recommend} />
       </Switch>
     </div>
   </Router>
