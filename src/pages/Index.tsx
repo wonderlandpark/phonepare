@@ -13,14 +13,14 @@ const Index: FC = () => {
         <Grid templateColumns={{ base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)' }} gap={5}>
           <Link to='/compare'>
             <Card>
-              <Text>전 핸드폰을 잘 알아요!</Text>
-              <Heading fontSize='2xl'>핸드폰 비교하기</Heading>
+              <Text>전 휴대폰을 잘 알아요!</Text>
+              <Heading fontSize='2xl'>폰 비교하기</Heading>
             </Card>
           </Link>
           <Link to='/recommend'>
             <Card>
-              <Text>저에게 맞는 핸드폰을 찾아보고 싶어요!</Text>
-              <Heading fontSize='2xl'>핸드폰 추천받기</Heading>
+              <Text>저에게 맞는 휴대폰을 찾아보고 싶어요!</Text>
+              <Heading fontSize='2xl'>폰 추천받기</Heading>
             </Card>
           </Link>
         </Grid>

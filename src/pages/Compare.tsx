@@ -12,7 +12,7 @@ import Others from '@/components/Others'
 
 const Compare: FC<{ asComponent?: boolean }> = ({ asComponent=false }) => {
   return <Box py={10} textAlign='center'>
-    { !asComponent && <Heading mb={3}>핸드폰 비교하기</Heading>}
+    { !asComponent && <Heading mb={3}>폰 비교하기</Heading>}
     <Box px={{ base: 10, md: 32 }}>
       <PhoneGrid>
         <Phone index={0} select={!asComponent} />

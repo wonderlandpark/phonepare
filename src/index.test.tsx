@@ -14,6 +14,6 @@ const Page: React.FC<{ path: string }> = ({ path }) => <RecoilRoot>
 describe('Pages', () => {
   it('compare', () => {
     const { getByText } = render(<Page path='/#/compare' />)
-    expect(document.body.contains(getByText('핸드폰 비교하기')))
+    expect(document.body.contains(getByText('폰 비교하기')))
   })
 })

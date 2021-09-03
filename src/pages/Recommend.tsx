@@ -15,7 +15,7 @@ const Recommend : FC = () => {
   const setSelecetedPhones =  useSetRecoilState(selectedPhonesState)
 
   return <Box py={10} textAlign='center'>
-    <Heading mb={3}>핸드폰 추천받기</Heading>
+    <Heading mb={3}>폰 추천받기</Heading>
     {
       questionIndex < Questions.length ? <Box px={{ base: 10, md: 32 }}>
         <Flex height='60vh' alignItems='center' justifyContent='center'>
@@ -38,7 +38,7 @@ const Recommend : FC = () => {
           </Box>
         </Flex> 
       </Box> : <Box>
-        <Heading fontSize='2xl'>아래 핸드폰을 추천드립니다!</Heading>
+        <Heading fontSize='2xl'>아래 휴대폰을 추천드립니다!</Heading>
         <Button mt={4} onClick={() => setQuestionIndex(0)}>다시 고르기</Button>
         <Compare asComponent />
       </Box>
