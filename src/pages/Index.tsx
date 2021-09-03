@@ -8,7 +8,6 @@ const Index: FC = () => {
   return <Box minHeight='100vh'>
     <Flex height='100vh' alignItems='center' justifyContent='center'>
       <Box textAlign='center'>
-        <Text>Phonepare</Text>
         <Heading mb={10}>어떤 메뉴를 찾으시나요?</Heading>
         <Grid templateColumns={{ base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)' }} gap={5}>
           <Link to='/compare'>
