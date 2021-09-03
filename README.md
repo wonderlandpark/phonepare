@@ -2,7 +2,11 @@
 
 핸드폰을 선택해서 비교하고 자신에게 맞는 핸드폰을 추천 받을 수 있는 공간입니다.
 
-### License
+![Main Page](./.github/assets/main.png)
+
+![Compare Page](./.github/assets/compare.png)
+
+## License
 
 ```md
 GNU GENERAL PUBLIC LICENSE
