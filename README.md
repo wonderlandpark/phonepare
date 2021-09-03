@@ -1,20 +1,12 @@
 # Phonepare
 
-폰을 선택해서 비교하는 웹입니다.
+핸드폰을 선택해서 비교하고 자신에게 맞는 핸드폰을 추천 받을 수 있는 공간입니다.
 
-## 기여자
+![Main Page](./.github/assets/main.png)
 
-### Developer
+![Compare Page](./.github/assets/compare.png)
 
-- 박준서: `wonderlandpark#9999`
-
-### Phone Info
-
-- 박준서: `wonderlandpark#9999`
-- 한예준: `조철강#3735`
-- 서연우: `Yoru#0002`
-
-### License
+## License
 
 ```md
 GNU GENERAL PUBLIC LICENSE
