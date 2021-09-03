@@ -2,7 +2,7 @@
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
-    "test": "web-test-runner \"src/**/*.test.tsx\"",
+    "test": "web-test-runner \"src/**/*.test.tsx\" --coverage",
     "lint": "eslint --ext ts,tsx ."
   },
   "dependencies": {
@@ -11,7 +11,10 @@
     "@emotion/styled": "^11",
     "framer-motion": "^4",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-router-dom": "^5.2.0",
+    "recoil": "^0.4.1"
   },
   "devDependencies": {
     "@snowpack/plugin-dotenv": "^2.1.0",
@@ -23,13 +26,13 @@
     "@types/mocha": "^8.2.2",
     "@types/react": "^17.0.15",
     "@types/react-dom": "^17.0.3",
+    "@types/react-router-dom": "^5.1.8",
     "@types/snowpack-env": "^2.3.3",
     "@typescript-eslint/eslint-plugin": "^4.29.0",
     "@typescript-eslint/parser": "^4.29.0",
     "@web/test-runner": "^0.13.3",
     "chai": "^4.3.4",
     "eslint": "^7.32.0",
-    "eslint-config-next": "^11.0.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
