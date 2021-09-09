@@ -1,16 +1,16 @@
 import { atom, selector } from 'recoil'
-import { getPhone } from './phones'
+import { getPhone, Phone } from './phones'
 
 export const selectedPhonesState = atom<[string, string, string]>({
   key: 'selectedPhones',
   default: ['iphone12pro', 'galaxys21+', 'velvet']
 })
 
-export const selectedPhonesDataState = selector({
+export const selectedPhonesDataState = selector<[Phone, Phone, Phone]>({
   key: 'selectedPhonesData',
   get: ({ get }) => {
     const phones = get(selectedPhonesState)
-    return phones.map(phone => getPhone(phone))
+    return phones.map(phone => getPhone(phone)) as [Phone, Phone, Phone]
   }
 })
 
