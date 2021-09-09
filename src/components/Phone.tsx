@@ -10,7 +10,7 @@ const Phone: FC<{
   index: number
   mobile?: boolean
   select?: boolean
-}> = ({ index, mobile=true, select=true } ) => {
+}> = ({ index, mobile=false, select=true } ) => {
   const [ manufacturer, setManufacturer ] = useState<Manufacturer>()
   const [ selectedPhones, setSelectedPhones ] = useRecoilState(selectedPhonesState)
   const selectedPhonesData = useRecoilValue(selectedPhonesDataState)
@@ -22,7 +22,7 @@ const Phone: FC<{
       return copied as [ string, string, string ]
     })
   }
-  return <Box textAlign='left' {...( mobile ? {} : { display: { base: 'none', lg: 'block' } })}>
+  return <Box textAlign='left' {...( mobile ? { display: { base: 'none', lg: 'block' } } : {} )}>
     {
       select && <>
         <Text>제조사</Text>
