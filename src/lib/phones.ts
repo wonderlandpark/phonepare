@@ -617,6 +617,78 @@ const PhoneDatas: PhoneData[] = [
     }
   },
   {
+    id: 'flip3',
+    manufacturer: 'samsung',
+    name: 'Galaxy Z Flip3 5G',
+    releaseDate: '2021.08',
+    display: {
+      size: '6.7',
+      resolution: '2640 X 1080',
+      type: 'Infinity-O Flex Display',
+      ppi: 425
+    },
+    cpu: '퀄컴 스냅드래곤 888 SM8350',
+    ram: '8 GB LPDDR5 SDRAM',
+    size: '72.2 × 166.0 × 6.9',
+    weight: 183,
+    battery: 3300,
+    charge: '유선, 무선(고속, 일반)',
+    os: 'Android 11',
+    colors: [
+      'phantomblack',
+      'cream',
+      'lavender',
+      'green',
+      'samsung pink',
+      'white',
+      'samsung grey'
+    ],
+    memory: [256],
+    waterproof: 'IPX8',
+    camera: {
+      front: ['10.0MP'],
+      back: [
+        '광각: 12.0MP(OIS 지원)',
+        '초광각: 12.0MP'
+      ]
+    }
+  },
+  {
+    id: 'fold5g3',
+    tags: ['screen', 'game'],
+    manufacturer: 'samsung',
+    name: 'Galaxy Fold 5G 3',
+    releaseDate: '2021.08',
+    display: {
+      size: '7.6',
+      resolution: '2208 X 1768',
+      type: 'New Infinity Flex Display',
+      ppi: 374
+    },
+    cpu: '퀄컴 스냅드래곤 888 SM8350',
+    ram: '12 GB LPDDR5 SDRAM',
+    size: '128.1 × 158.2 × 6.4',
+    weight: 271,
+    battery: 4400,
+    charge: '유선, 무선(고속, 일반)',
+    os: 'Android 11',
+    colors: [
+      'phantomsilver',
+      'phantomgreen',
+      'phantomblack'
+    ],
+    memory: [256, 512],
+    waterproof: 'IPX8',
+    camera: {
+      front: ['10.0MP'],
+      back: [
+        '기본: 12.0MP(OIS 지원)',
+        '망원: 12.0MP(OIS 지원)',
+        '초광각: 12.0MP'
+      ]
+    }
+  },
+  {
     id: 'galaxys21ultra',
     tags: ['screen', 'game', 'battery'],
     manufacturer: 'samsung',
