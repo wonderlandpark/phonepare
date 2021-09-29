@@ -26,11 +26,11 @@ const PhoneDatas: PhoneData[] = [
       'apple gold',
       'pacific blue'
     ],
-    memory: [128, 256, 512],
+    memory: [128, 256, 512, 1024],
     waterproof: 'IP68',
     camera: {
       front: ['12MP'],
-      back: ['기본: 12MP(OIS 지원)', '광각: 12MP', '초광각 지원', '광학 2배줌 지원']
+      back: ['기본: 12MP(OIS 지원)', '광각: 12MP', '초광각 지원', '광학 2배줌 지원', '광학 0.5배줌아웃 지원']
     }
   },
   {
@@ -63,6 +63,38 @@ const PhoneDatas: PhoneData[] = [
     camera: {
       front: ['12MP'],
       back: ['기본: 12MP(OIS 지원)', '광각: 12MP', '초광각 지원', '광학 3배줌 지원', '광학 0.5배줌아웃 지원']
+    }
+  },
+  {
+    id: 'iphone13',
+    manufacturer: 'apple',
+    name: 'iPhone 13',
+    releaseDate: '2021. 10',
+    display: {
+      size: '6.1',
+      resolution: '2532 x 1170',
+      type: 'Promotion Super Retina XDR',
+      ppi: 460
+    },
+    cpu: 'Apple A15 Bionic APL1W07 SoC',
+    ram: '4 GB LPDDR4X SDRAM',
+    size: '71.55 x 146.7 x 7.65',
+    weight: 173,
+    battery: 2337,
+    charge: '유선, 무선(고속, 고속)',
+    os: 'iOS 15.0',
+    colors: [
+      'midnight',
+      'starlight',
+      'apple pink',
+      'blue',
+      'productred'
+    ],
+    memory: [128, 256, 512],
+    waterproof: 'IP68',
+    camera: {
+      front: ['12MP'],
+      back: ['기본: 12MP(OIS 지원)', '광각: 12MP', '초광각 지원', '광학 2배줌 지원']
     }
   },
   {
