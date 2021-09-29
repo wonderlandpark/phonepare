@@ -18,8 +18,8 @@ const PhoneDatas: PhoneData[] = [
     size: '71.5 x 146.7 x 7.4',
     weight: 226,
     battery: 3687,
-    charge: '유선, 무선(고속, 일반)',
-    os: 'iOS 14.0',
+    charge: '유선, 무선(고속, 고속)',
+    os: 'iOS 15.0',
     colors: [
       'graphite',
       'apple silver',
@@ -31,6 +31,38 @@ const PhoneDatas: PhoneData[] = [
     camera: {
       front: ['12MP'],
       back: ['기본: 12MP(OIS 지원)', '광각: 12MP', '초광각 지원', '광학 2배줌 지원']
+    }
+  },
+  {
+    id: 'iphone13pro',
+    tags: ['apple', 'battery', 'game'],
+    manufacturer: 'apple',
+    name: 'iPhone 13 Pro',
+    releaseDate: '2021. 10',
+    display: {
+      size: '6.1',
+      resolution: '2532 x 1170',
+      type: 'Promotion Super Retina XDR',
+      ppi: 460
+    },
+    cpu: 'Apple A15 Bionic APL1W07 SoC',
+    ram: '6 GB LPDDR4X SDRAM',
+    size: '71.55 x 146.7 x 7.65',
+    weight: 203,
+    battery: 3095,
+    charge: '유선, 무선(고속, 고속)',
+    os: 'iOS 15.0',
+    colors: [
+      'graphite',
+      'apple silver',
+      'apple gold',
+      'pacific blue'
+    ],
+    memory: [128, 256, 512, 1024],
+    waterproof: 'IP68',
+    camera: {
+      front: ['12MP'],
+      back: ['기본: 12MP(OIS 지원)', '광각: 12MP', '초광각 지원', '광학 3배줌 지원', '광학 0.5배줌아웃 지원']
     }
   },
   {
