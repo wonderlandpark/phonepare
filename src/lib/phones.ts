@@ -2,6 +2,38 @@ import type { PhoneData } from '@/utils/types'
 
 const PhoneDatas: PhoneData[] = [
   {
+    id: 'iphone13promax',
+    tags: ['apple', 'screen', 'battery', 'game'],
+    manufacturer: 'apple',
+    name: 'iPhone 13 Pro Max',
+    releaseDate: '2021. 10',
+    display: {
+      size: '6.7',
+      resolution: '2778 x 1284',
+      type: 'Promotion Super Retina XDR',
+      ppi: 458
+    },
+    cpu: 'Apple A15 Bionic APL1W05 SoC',
+    ram: '6 GB LPDDR4X SDRAM',
+    size: '71.5 x 146.7 x 7.4',
+    weight: 226,
+    battery: 3687,
+    charge: '유선, 무선(고속, 일반)',
+    os: 'iOS 14.0',
+    colors: [
+      'graphite',
+      'apple silver',
+      'apple gold',
+      'pacific blue'
+    ],
+    memory: [128, 256, 512],
+    waterproof: 'IP68',
+    camera: {
+      front: ['12MP'],
+      back: ['기본: 12MP(OIS 지원)', '광각: 12MP', '초광각 지원', '광학 2배줌 지원']
+    }
+  },
+  {
     id: 'iphone12promax',
     tags: ['apple', 'screen', 'game'],
     manufacturer: 'apple',
