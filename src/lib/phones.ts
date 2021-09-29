@@ -73,7 +73,7 @@ const PhoneDatas: PhoneData[] = [
     display: {
       size: '6.1',
       resolution: '2532 x 1170',
-      type: 'Promotion Super Retina XDR',
+      type: 'Super Retina XDR',
       ppi: 460
     },
     cpu: 'Apple A15 Bionic APL1W07 SoC',
@@ -81,6 +81,38 @@ const PhoneDatas: PhoneData[] = [
     size: '71.55 x 146.7 x 7.65',
     weight: 173,
     battery: 2337,
+    charge: '유선, 무선(고속, 고속)',
+    os: 'iOS 15.0',
+    colors: [
+      'midnight',
+      'starlight',
+      'apple pink',
+      'blue',
+      'productred'
+    ],
+    memory: [128, 256, 512],
+    waterproof: 'IP68',
+    camera: {
+      front: ['12MP'],
+      back: ['기본: 12MP(OIS 지원)', '광각: 12MP', '초광각 지원', '광학 2배줌 지원']
+    }
+  },
+  {
+    id: 'iphone13mini',
+    manufacturer: 'apple',
+    name: 'iPhone 13 mini',
+    releaseDate: '2021. 10',
+    display: {
+      size: '5.4',
+      resolution: '2340 x 1080',
+      type: 'Super Retina XDR',
+      ppi: 476
+    },
+    cpu: 'Apple A15 Bionic APL1W07 SoC',
+    ram: '4 GB LPDDR4X SDRAM',
+    size: '64.2 x 131.5 x 7.65',
+    weight: 140,
+    battery: 2406,
     charge: '유선, 무선(고속, 고속)',
     os: 'iOS 15.0',
     colors: [
