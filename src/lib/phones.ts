@@ -17,14 +17,14 @@ const PhoneDatas: PhoneData[] = [
     ram: '6 GB LPDDR4X SDRAM',
     size: '71.5 x 146.7 x 7.4',
     weight: 226,
-    battery: 3687,
+    battery: 4352,
     charge: '유선, 무선(고속, 고속)',
     os: 'iOS 15.0',
     colors: [
       'graphite',
       'apple silver',
       'apple gold',
-      'pacific blue'
+      'sierra blue'
     ],
     memory: [128, 256, 512, 1024],
     waterproof: 'IP68',
@@ -56,7 +56,7 @@ const PhoneDatas: PhoneData[] = [
       'graphite',
       'apple silver',
       'apple gold',
-      'pacific blue'
+      'sierra blue'
     ],
     memory: [128, 256, 512, 1024],
     waterproof: 'IP68',
@@ -80,7 +80,7 @@ const PhoneDatas: PhoneData[] = [
     ram: '4 GB LPDDR4X SDRAM',
     size: '71.55 x 146.7 x 7.65',
     weight: 173,
-    battery: 2337,
+    battery: 3227,
     charge: '유선, 무선(고속, 고속)',
     os: 'iOS 15.0',
     colors: [

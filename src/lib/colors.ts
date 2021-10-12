@@ -2,6 +2,11 @@ import type { Color } from '@/utils/types'
 
 const Colors: Color[] = [
   {
+    id: 'sierra blue',
+    name: '시에라 블루',
+    color: { background: '#ABC4DB' }
+  },
+  {
     id: 'midnight',
     name: '미드나이트',
     color: { background: '#43474D', color: '#f9f9f9' }
