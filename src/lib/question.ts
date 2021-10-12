@@ -26,7 +26,7 @@ const Questions: Question[] = [
         value: true
       },
       {
-        label: '전 게임은 많이 플레이하지 않습니다.',
+        label: '전 게임은 많이 플레이하지 않습니다.',
         value: false
       }
     ],
