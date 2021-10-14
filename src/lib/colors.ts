@@ -2,6 +2,56 @@ import type { Color } from '@/utils/types'
 
 const Colors: Color[] = [
   {
+    id: 'sierra blue',
+    name: '시에라 블루',
+    color: { background: '#ABC4DB' }
+  },
+  {
+    id: 'midnight',
+    name: '미드나이트',
+    color: { background: '#43474D', color: '#f9f9f9' }
+  },
+  {
+    id: 'starlight',
+    name: '스타라이트',
+    color: { background: '#FAF7F4' }
+  },
+  {
+    id: 'blue',
+    name: '블루',
+    color: { background: '#52758F', color: '#f9f9f9' }
+  },
+  {
+    id: 'apple pink',
+    name: '핑크',
+    color: { background: '#F6E3DE' }
+  },
+  {
+    id: 'cream',
+    name: '크림',
+    color: { background: '#F7F3D8' }
+  },
+  {
+    id: 'lavender',
+    name: '라벤더',
+    color: { background: '#DED3EF' }
+  },
+  {
+    id: 'green',
+    name: '그린',
+    color: { background: '#636D73' }
+  },
+  {
+    id: 'samsung pink',
+    name: '핑크',
+    color: { background: '#F7DACF' }
+  },
+  {
+    id: 'samsung grey',
+    name: '그레이',
+    color: { background: '#8E8E8E' }
+  },
+  {
     id: 'phantomviolet',
     name: '팬텀 바이올렛',
     color: { background: '#B3B2D1' },

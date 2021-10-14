@@ -3,7 +3,7 @@ import { getPhone, Phone } from './phones'
 
 export const selectedPhonesState = atom<[string, string, string]>({
   key: 'selectedPhones',
-  default: ['iphone12pro', 'galaxys21+', 'velvet']
+  default: ['iphone13promax', 'flip3', 'velvet']
 })
 
 export const selectedPhonesDataState = selector<[Phone, Phone, Phone]>({

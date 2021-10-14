@@ -2,6 +2,134 @@ import type { PhoneData } from '@/utils/types'
 
 const PhoneDatas: PhoneData[] = [
   {
+    id: 'iphone13promax',
+    tags: ['apple', 'screen', 'battery', 'game'],
+    manufacturer: 'apple',
+    name: 'iPhone 13 Pro Max',
+    releaseDate: '2021. 10',
+    display: {
+      size: '6.7',
+      resolution: '2778 x 1284',
+      type: 'Promotion Super Retina XDR',
+      ppi: 458
+    },
+    cpu: 'Apple A15 Bionic APL1W05 SoC',
+    ram: '6 GB LPDDR4X SDRAM',
+    size: '71.5 x 146.7 x 7.4',
+    weight: 226,
+    battery: 4352,
+    charge: '유선, 무선(고속, 고속)',
+    os: 'iOS 15.0',
+    colors: [
+      'graphite',
+      'apple silver',
+      'apple gold',
+      'sierra blue'
+    ],
+    memory: [128, 256, 512, 1024],
+    waterproof: 'IP68',
+    camera: {
+      front: ['12MP'],
+      back: ['기본: 12MP(OIS 지원)', '광각: 12MP', '초광각 지원', '광학 2배줌 지원', '광학 0.5배줌아웃 지원']
+    }
+  },
+  {
+    id: 'iphone13pro',
+    tags: ['apple', 'battery', 'game'],
+    manufacturer: 'apple',
+    name: 'iPhone 13 Pro',
+    releaseDate: '2021. 10',
+    display: {
+      size: '6.1',
+      resolution: '2532 x 1170',
+      type: 'Promotion Super Retina XDR',
+      ppi: 460
+    },
+    cpu: 'Apple A15 Bionic APL1W07 SoC',
+    ram: '6 GB LPDDR4X SDRAM',
+    size: '71.55 x 146.7 x 7.65',
+    weight: 203,
+    battery: 3095,
+    charge: '유선, 무선(고속, 고속)',
+    os: 'iOS 15.0',
+    colors: [
+      'graphite',
+      'apple silver',
+      'apple gold',
+      'sierra blue'
+    ],
+    memory: [128, 256, 512, 1024],
+    waterproof: 'IP68',
+    camera: {
+      front: ['12MP'],
+      back: ['기본: 12MP(OIS 지원)', '광각: 12MP', '초광각 지원', '광학 3배줌 지원', '광학 0.5배줌아웃 지원']
+    }
+  },
+  {
+    id: 'iphone13',
+    manufacturer: 'apple',
+    name: 'iPhone 13',
+    releaseDate: '2021. 10',
+    display: {
+      size: '6.1',
+      resolution: '2532 x 1170',
+      type: 'Super Retina XDR',
+      ppi: 460
+    },
+    cpu: 'Apple A15 Bionic APL1W07 SoC',
+    ram: '4 GB LPDDR4X SDRAM',
+    size: '71.55 x 146.7 x 7.65',
+    weight: 173,
+    battery: 3227,
+    charge: '유선, 무선(고속, 고속)',
+    os: 'iOS 15.0',
+    colors: [
+      'midnight',
+      'starlight',
+      'apple pink',
+      'blue',
+      'productred'
+    ],
+    memory: [128, 256, 512],
+    waterproof: 'IP68',
+    camera: {
+      front: ['12MP'],
+      back: ['기본: 12MP(OIS 지원)', '광각: 12MP', '초광각 지원', '광학 2배줌 지원']
+    }
+  },
+  {
+    id: 'iphone13mini',
+    manufacturer: 'apple',
+    name: 'iPhone 13 mini',
+    releaseDate: '2021. 10',
+    display: {
+      size: '5.4',
+      resolution: '2340 x 1080',
+      type: 'Super Retina XDR',
+      ppi: 476
+    },
+    cpu: 'Apple A15 Bionic APL1W07 SoC',
+    ram: '4 GB LPDDR4X SDRAM',
+    size: '64.2 x 131.5 x 7.65',
+    weight: 140,
+    battery: 2406,
+    charge: '유선, 무선(고속, 고속)',
+    os: 'iOS 15.0',
+    colors: [
+      'midnight',
+      'starlight',
+      'apple pink',
+      'blue',
+      'productred'
+    ],
+    memory: [128, 256, 512],
+    waterproof: 'IP68',
+    camera: {
+      front: ['12MP'],
+      back: ['기본: 12MP(OIS 지원)', '광각: 12MP', '초광각 지원', '광학 2배줌 지원']
+    }
+  },
+  {
     id: 'iphone12promax',
     tags: ['apple', 'screen', 'game'],
     manufacturer: 'apple',
@@ -614,6 +742,78 @@ const PhoneDatas: PhoneData[] = [
     camera: {
       front: ['1.2MP'],
       back: ['8MP']
+    }
+  },
+  {
+    id: 'flip3',
+    manufacturer: 'samsung',
+    name: 'Galaxy Z Flip3 5G',
+    releaseDate: '2021.08',
+    display: {
+      size: '6.7',
+      resolution: '2640 X 1080',
+      type: 'Infinity-O Flex Display',
+      ppi: 425
+    },
+    cpu: '퀄컴 스냅드래곤 888 SM8350',
+    ram: '8 GB LPDDR5 SDRAM',
+    size: '72.2 × 166.0 × 6.9',
+    weight: 183,
+    battery: 3300,
+    charge: '유선, 무선(고속, 일반)',
+    os: 'Android 11',
+    colors: [
+      'phantomblack',
+      'cream',
+      'lavender',
+      'green',
+      'samsung pink',
+      'white',
+      'samsung grey'
+    ],
+    memory: [256],
+    waterproof: 'IPX8',
+    camera: {
+      front: ['10.0MP'],
+      back: [
+        '광각: 12.0MP(OIS 지원)',
+        '초광각: 12.0MP'
+      ]
+    }
+  },
+  {
+    id: 'fold5g3',
+    tags: ['screen', 'game'],
+    manufacturer: 'samsung',
+    name: 'Galaxy Fold 5G 3',
+    releaseDate: '2021.08',
+    display: {
+      size: '7.6',
+      resolution: '2208 X 1768',
+      type: 'New Infinity Flex Display',
+      ppi: 374
+    },
+    cpu: '퀄컴 스냅드래곤 888 SM8350',
+    ram: '12 GB LPDDR5 SDRAM',
+    size: '128.1 × 158.2 × 6.4',
+    weight: 271,
+    battery: 4400,
+    charge: '유선, 무선(고속, 일반)',
+    os: 'Android 11',
+    colors: [
+      'phantomsilver',
+      'phantomgreen',
+      'phantomblack'
+    ],
+    memory: [256, 512],
+    waterproof: 'IPX8',
+    camera: {
+      front: ['10.0MP'],
+      back: [
+        '기본: 12.0MP(OIS 지원)',
+        '망원: 12.0MP(OIS 지원)',
+        '초광각: 12.0MP'
+      ]
     }
   },
   {
